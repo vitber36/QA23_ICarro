@@ -31,4 +31,20 @@ public class HelperBase {
         List<WebElement> list=wd.findElements(locator);
         return list.size()>0;
     }
+    public String getMessage() {
+        //WebElement element = wd.findElement(By.cssSelector(".dialog-container>h2"));
+       // String text = element.getText();
+        //return text;
+        //pause(2000);
+        return wd.findElement(By.cssSelector(".dialog-container>h2")).getText();
+
+    }
+
+    public void pause(int time){
+        try {
+            Thread.sleep(time);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+    }
 }
