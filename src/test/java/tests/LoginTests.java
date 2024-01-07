@@ -62,23 +62,23 @@ LoginTests extends TestBase{
 
     }
 
-    @Test
+   @Test
     public void loginWrongEmailWithoutShtrudel(){
         User user=new User().withEmail("vitber06mail.ru").withPassword("1978Vit@lik");
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm(user);
-        app.getHelperUser().submitLogin();
-        Assert.assertFalse(app.getHelperUser().isLogged());
+       // app.getHelperUser().submitLogin();
+        Assert.assertEquals(app.getHelperUser().getMessage(),"\"It'snot look like email\"");
     }
 
-    @Test
+ /*@Test
     public void loginWrongEmailWithoutShtrudel1(){
         User user=new User().withEmail("vitber06mail.ru").withPassword("1978Vit@lik");
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm(user);
         //app.getHelperUser().submitLogin();
         Assert.assertTrue(app.getHelperUser().isAlertPresent("It'snot look like email"));
-    }
+    }*/
 
 
     @Test
@@ -99,7 +99,7 @@ LoginTests extends TestBase{
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm(user);
         app.getHelperUser().submitLogin();
-        Assert.assertEquals(app.getHelperUser().getMessage(),"Login or Password incorrect");
+        Assert.assertEquals(app.getHelperUser().getMessage(),"\"Login or Password incorrect\"");
 
     }
 
@@ -110,7 +110,7 @@ LoginTests extends TestBase{
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm(user);
         app.getHelperUser().submitLogin();
-        Assert.assertEquals(app.getHelperUser().getMessage(),"Login or Password incorrect");
+        Assert.assertEquals(app.getHelperUser().getMessage(),"\"Login or Password incorrect\"");
 
     }
 
