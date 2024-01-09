@@ -81,7 +81,7 @@ public class HelperUser extends HelperBase{
 
     public void checkPolicy() {
         //click(By.id("terms-of-use"));
-        //click(By.cssSelector("label[for='terms-of-use']"));
+        //32click(By.cssSelector("label[for='terms-of-use']"));
 
         //var 2
         JavascriptExecutor js = (JavascriptExecutor) wd;
