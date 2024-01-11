@@ -9,6 +9,7 @@ public class ApplicationManager {
 
     WebDriver wd;
     HelperUser helperUser;
+    HelperCar helperCar;
 
     public void inIt() {
         wd=new ChromeDriver();
@@ -16,7 +17,12 @@ public class ApplicationManager {
         wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         wd.navigate().to("https://ilcarro.web.app/search");
         helperUser=new HelperUser(wd);
+        helperCar=new HelperCar(wd);
 
+    }
+
+    public HelperCar getHelperCar() {
+        return helperCar;
     }
 
     public HelperUser getHelperUser() {
