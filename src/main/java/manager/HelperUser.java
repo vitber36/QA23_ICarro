@@ -106,4 +106,19 @@ public class HelperUser extends HelperBase{
         submit();
         clickOkButton();
     }
+    public String getMessageEmptyFirstName() {
+        return wd.findElement(By.xpath("//*[text()=' Name is required ']")).getText();
+    }
+
+    public String getMessageEmptyLastName() {
+        return wd.findElement(By.xpath("//*[text()=' Last name is required ']")).getText();
+    }
+
+    public String getMessageEmailWithouShtrudel() {
+        return wd.findElement(By.xpath("//*[text()='Wrong email format']")).getText();
+    }
+
+    public String getMessageWrongPasswordShort() {
+        return wd.findElement(By.xpath("//*[contains(text(),'minimum 8 symbols')]")).getText();
+    }
 }

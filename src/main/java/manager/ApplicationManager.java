@@ -19,6 +19,7 @@ public class ApplicationManager {
         helperUser=new HelperUser(wd);
         helperCar=new HelperCar(wd);
 
+
     }
 
     public HelperCar getHelperCar() {
