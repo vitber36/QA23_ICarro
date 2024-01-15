@@ -1,9 +1,6 @@
 package manager;
 
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -20,10 +17,17 @@ public class HelperBase {
         WebElement element=wd.findElement(locator);
         element.click();
         element.clear();
+        clearNew(element);
         if(text!=null) {
             element.sendKeys(text);
         }
 
+    }
+
+    public void submit(){
+        //wd.findElement(By.xpath("//*[@type='submit']")).click();
+        click(By.xpath("//*[@type='submit']"));
+        //click(By.xpath("//*[@type='button']"));
     }
 
     public void click(By locator){
@@ -34,6 +38,12 @@ public class HelperBase {
         List<WebElement> list=wd.findElements(locator);
         return list.size()>0;
     }
+
+    public void clearNew(WebElement element) {
+        element.sendKeys("");
+        element.sendKeys(Keys.BACK_SPACE);
+    }
+
     public String getMessage() {
         //WebElement element = wd.findElement(By.cssSelector(".dialog-container>h2"));
        // String text = element.getText();

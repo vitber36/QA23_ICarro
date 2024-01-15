@@ -32,11 +32,7 @@ public class HelperUser extends HelperBase{
         type(By.xpath("//*[@id='password']"), user.getPassword());
     }
 
-    public void submit(){
-        //wd.findElement(By.xpath("//*[@type='submit']")).click();
-        click(By.xpath("//*[@type='submit']"));
-        //click(By.xpath("//*[@type='button']"));
-    }
+
 
 
     public boolean isLogged() {
@@ -80,24 +76,27 @@ public class HelperUser extends HelperBase{
 
 
     public void checkPolicy() {
-        //click(By.id("terms-of-use"));
-        //32click(By.cssSelector("label[for='terms-of-use']"));
+        if (!wd.findElement(By.id("terms-of-use")).isSelected()) {
+            //click(By.id("terms-of-use"));
+            //32click(By.cssSelector("label[for='terms-of-use']"));
 
-        //var 2
-        JavascriptExecutor js = (JavascriptExecutor) wd;
-        js.executeScript("document.querySelector('#terms-of-use').click()");
+            //var 2
+            JavascriptExecutor js = (JavascriptExecutor) wd;
+            js.executeScript("document.querySelector('#terms-of-use').click()");
+        }
     }
 
     public void checkPolicyXY(){
-        WebElement label= wd.findElement(By.cssSelector("label[for='terms-of-use']"));
+        if(!wd.findElement(By.id("terms-of-use")).isSelected()) {
+            WebElement label = wd.findElement(By.cssSelector("label[for='terms-of-use']"));
 
-        Rectangle rect=label.getRect();
-        int w=rect.getWidth();
-        int xOffSet=-w/2;
-        Actions actions=new Actions(wd);
-        actions.moveToElement(label,xOffSet,0).click().release().perform();
+            Rectangle rect = label.getRect();
+            int w = rect.getWidth();
+            int xOffSet = -w / 2;
+            Actions actions = new Actions(wd);
+            actions.moveToElement(label, xOffSet, 0).click().release().perform();
 
-
+        }
     }
 
     public void login(User user) {
