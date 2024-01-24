@@ -1,0 +1,5 @@
+12:41:43.683 INFO  manager.ApplicationManager - All tests run in Chrome
+12:41:45.282 INFO  manager.ApplicationManager - The link--->https://ilcarro.web.app/search
+12:41:55.405 INFO  tests.TestBase - Start test with name 'login success'
+12:41:55.406 INFO  tests.TestBase - Test data--> email:'vitber06@mail.ru' & password: '1978Vit@lik'
+12:41:58.379 INFO  tests.TestBase - Assert check that button 'logout' is present

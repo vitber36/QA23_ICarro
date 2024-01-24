@@ -18,22 +18,27 @@ LoginTests extends TestBase{
 
     @Test
     public void loginSuccess1(){
+        logger.info("Start test with name 'login success1'");
+        logger.info("Test data--> email:'vitber06@mail.ru' & password: '1978Vit@lik'");
+
         User user=new User().withEmail("vitber06@mail.ru").withPassword("1978Vit@lik");
         //user.setEmail("vitber06@mail.ru");
         //user.setPassword("1978Vit@lik");
-
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm(user);
         app.getHelperUser().submit();
 
-
         Assert.assertTrue(app.getHelperUser().isLogged());
 
+        logger.info("Assert check that button 'logout' is present");
     }
 
 
     @Test
     public void loginSuccess() {
+        logger.info("Start test with name 'login success'");
+        logger.info("Test data--> email:'vitber06@mail.ru' & password: '1978Vit@lik'");
+
         User user = new User().withEmail("vitber06@mail.ru").withPassword("1978Vit@lik");
 //        user.setEmail("vitber06@mail.ru");
 //        user.setPassword("1978Vit@lik");
@@ -44,11 +49,14 @@ LoginTests extends TestBase{
         Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
         //app.getHelperUser().clickOKButton();
 
-
+        logger.info("Assert message 'Logged in success' is present");
     }
 
     @Test
     public void loginSuccessModel() {
+        logger.info("Start test with name 'login success model'");
+        logger.info("Test data--> email:'vitber06@mail.ru' & password: '1978Vit@lik'");
+
         User user = new User().withEmail("vitber06@mail.ru").withPassword("1978Vit@lik");
 //        user.setEmail("vitber06@mail.ru");
 //        user.setPassword("1978Vit@lik");
@@ -59,17 +67,22 @@ LoginTests extends TestBase{
         Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
         //app.getHelperUser().clickOKButton();
 
-
+        logger.info("Assert message 'Logged in success' is present");
     }
 
    @Test
     public void loginWrongEmailWithoutShtrudel(){
+       logger.info("Start test with name 'login wrong email without shtrulel'");
+       logger.info("Test data--> email:'vitber06mail.ru' & password: '1978Vit@lik'");
+
         User user=new User().withEmail("vitber06mail.ru").withPassword("1978Vit@lik");
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm(user);
         app.getHelperUser().submit();
         Assert.assertEquals(app.getHelperUser().getErrorText(),"It'snot look like email");
         Assert.assertTrue(app.getHelperUser().isYallaButtonNotActive());
+
+       logger.info("Assert message 'It's not look like email' is present");
     }
 
     @Test
@@ -86,12 +99,16 @@ LoginTests extends TestBase{
     @Test
 
     public void loginWrongPasswordShort(){
+        logger.info("Start test with name 'login wrong password short'");
+        logger.info("Test data--> email:'vitber06@mail.ru' & password: '1978Vit@'");
+
         User user=new User().withEmail("vitber06@mail.ru").withPassword("8Vit@");
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm(user);
         app.getHelperUser().submit();
         Assert.assertEquals(app.getHelperUser().getMessage(),"\"Login or Password incorrect\"");
 
+        logger.info("Assert message 'Login or Password incorrect' is present");
     }
 
     @Test
@@ -117,13 +134,16 @@ LoginTests extends TestBase{
     }
     @Test
     public void loginUnregisteredUser(){
+        logger.info("Start test with name 'login unregistered user'");
+        logger.info("Test data--> email:'vvitber06@mail.ru' & password: '11978Vit@lik'");
+
         User user=new User().withEmail("vvitber06@mail.ru").withPassword("11978Vitalik");
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm(user);
         app.getHelperUser().submit();
         Assert.assertEquals(app.getHelperUser().getMessage(),"\"Login or Password incorrect\"");
 
-
+        logger.info("Assert message 'Login or Password incorrect' is present");
     }
     @AfterMethod
     public void postCondition(){

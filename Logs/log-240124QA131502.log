@@ -1,0 +1,8 @@
+13:15:04.284 INFO  manager.ApplicationManager - All tests run in Chrome
+13:15:05.905 INFO  manager.ApplicationManager - The link--->https://ilcarro.web.app/search
+13:15:19.063 INFO  tests.TestBase - test add new car success started
+13:15:19.064 INFO  tests.TestBase - test data: location-'Tel Aviv, Israel', manufacture-'Kia', model-'Sportage', year-'2020', fuel-'Gas',seats-'5', car class-'C', car number-'432-232 +i',price-'50'
+13:15:25.615 INFO  tests.TestBase - assert check message 'added successful'
+13:15:25.769 INFO  tests.TestBase - test add new car success all started
+13:15:25.770 INFO  tests.TestBase - test data: location-'Tel Aviv, Israel', manufacture-'Mazda', model-'M3', year-'2012', fuel-'Gas',seats-'4', car class-'C', car number-'234-232 +i',price-'50',about-'very nice car'
+13:15:31.908 INFO  tests.TestBase - assert check message 'added successful'
