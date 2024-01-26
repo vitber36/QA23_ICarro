@@ -1,0 +1,76 @@
+17:09:31.893 INFO  manager.ApplicationManager - All tests run in Chrome
+17:09:33.029 INFO  manager.ApplicationManager - The link--->https://ilcarro.web.app/search
+17:09:33.044 INFO  manager.ListenerWD - Before find element By.xpath: //*[text()=' Logout ']
+17:09:43.090 INFO  manager.ListenerWD - Element found success By.xpath: //*[text()=' Logout ']
+17:09:43.091 INFO  manager.ListenerWD - Before find element By.xpath: //a[text()=' Log in ']
+17:09:43.127 INFO  manager.ListenerWD - Element found success By.xpath: //a[text()=' Log in ']
+17:09:43.130 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (9b04b6ae77b0bba15b693e99fa8ebdfc)] -> xpath: //a[text()=' Log in ']]
+17:09:43.251 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (9b04b6ae77b0bba15b693e99fa8ebdfc)] -> xpath: //a[text()=' Log in ']]
+17:09:43.252 INFO  manager.ListenerWD - Before find element By.xpath: //*[@id='email']
+17:09:43.280 INFO  manager.ListenerWD - Element found success By.xpath: //*[@id='email']
+17:09:43.281 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (9b04b6ae77b0bba15b693e99fa8ebdfc)] -> xpath: //*[@id='email']]
+17:09:43.367 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (9b04b6ae77b0bba15b693e99fa8ebdfc)] -> xpath: //*[@id='email']]
+17:09:43.631 INFO  manager.ListenerWD - Before find element By.xpath: //*[@id='password']
+17:09:43.655 INFO  manager.ListenerWD - Element found success By.xpath: //*[@id='password']
+17:09:43.656 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (9b04b6ae77b0bba15b693e99fa8ebdfc)] -> xpath: //*[@id='password']]
+17:09:43.727 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (9b04b6ae77b0bba15b693e99fa8ebdfc)] -> xpath: //*[@id='password']]
+17:09:43.871 INFO  manager.ListenerWD - Before find element By.xpath: //*[@type='submit']
+17:09:43.906 INFO  manager.ListenerWD - Element found success By.xpath: //*[@type='submit']
+17:09:43.906 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (9b04b6ae77b0bba15b693e99fa8ebdfc)] -> xpath: //*[@type='submit']]
+17:09:43.980 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (9b04b6ae77b0bba15b693e99fa8ebdfc)] -> xpath: //*[@type='submit']]
+17:09:43.980 INFO  manager.ListenerWD - Before find element By.xpath: //button[text()='Ok']
+17:09:44.986 INFO  manager.ListenerWD - Element found success By.xpath: //button[text()='Ok']
+17:09:44.986 INFO  manager.ListenerWD - Before find element By.xpath: //button[text()='Ok']
+17:09:45.020 INFO  manager.ListenerWD - Element found success By.xpath: //button[text()='Ok']
+17:09:45.021 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (9b04b6ae77b0bba15b693e99fa8ebdfc)] -> xpath: //button[text()='Ok']]
+17:09:45.088 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (9b04b6ae77b0bba15b693e99fa8ebdfc)] -> xpath: //button[text()='Ok']]
+17:09:45.096 INFO  tests.TestBase - test add new car wrong manufacture (empty) started
+17:09:45.096 INFO  tests.TestBase - test data: location-'', manufacture-'Kia', model-'Sportage', year-'2020', fuel-'Gas',seats-'5', car class-'C', car number-'432-232 +i',price-'50'
+17:09:45.601 INFO  manager.ListenerWD - Before find element By.xpath: //a[text()=' Let the car work ']
+17:09:45.639 INFO  manager.ListenerWD - Element found success By.xpath: //a[text()=' Let the car work ']
+17:09:45.639 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (9b04b6ae77b0bba15b693e99fa8ebdfc)] -> xpath: //a[text()=' Let the car work ']]
+17:09:45.778 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (9b04b6ae77b0bba15b693e99fa8ebdfc)] -> xpath: //a[text()=' Let the car work ']]
+17:09:45.778 INFO  manager.ListenerWD - Before find element By.id: pickUpPlace
+17:09:45.812 INFO  manager.ListenerWD - Element found success By.id: pickUpPlace
+17:09:45.812 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (9b04b6ae77b0bba15b693e99fa8ebdfc)] -> id: pickUpPlace]
+17:09:45.879 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (9b04b6ae77b0bba15b693e99fa8ebdfc)] -> id: pickUpPlace]
+17:09:46.074 INFO  manager.ListenerWD - Before find element By.cssSelector: div.pac-item
+17:09:46.762 INFO  manager.ListenerWD - Element found success By.cssSelector: div.pac-item
+17:09:46.762 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (9b04b6ae77b0bba15b693e99fa8ebdfc)] -> css selector: div.pac-item]
+17:09:56.856 INFO  manager.ListenerWD - Houston we have a problem!
+17:09:56.856 INFO  manager.ListenerWD - element not interactable
+  (Session info: chrome=120.0.6099.225)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VITBER', ip: '192.168.68.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53301}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9b04b6ae77b0bba15b693e99fa8ebdfc
+17:09:56.857 INFO  manager.ListenerWD - org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=120.0.6099.225)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VITBER', ip: '192.168.68.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53301}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9b04b6ae77b0bba15b693e99fa8ebdfc
+17:09:57.307 INFO  manager.ListenerWD - This is a link to screenshot with error--->src/test/screenshots/screen596.png
+17:09:57.309 INFO  manager.ListenerWD - Before find element By.xpath: //button[text()='Search cars']
+17:10:07.333 INFO  manager.ListenerWD - Houston we have a problem!
+17:10:07.333 INFO  manager.ListenerWD - no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Search cars']"}
+  (Session info: chrome=120.0.6099.225)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VITBER', ip: '192.168.68.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53301}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9b04b6ae77b0bba15b693e99fa8ebdfc
+*** Element info: {Using=xpath, value=//button[text()='Search cars']}
+17:10:07.334 INFO  manager.ListenerWD - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Search cars']"}
+  (Session info: chrome=120.0.6099.225)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VITBER', ip: '192.168.68.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53301}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9b04b6ae77b0bba15b693e99fa8ebdfc
+*** Element info: {Using=xpath, value=//button[text()='Search cars']}
+17:10:07.763 INFO  manager.ListenerWD - This is a link to screenshot with error--->src/test/screenshots/screen607.png

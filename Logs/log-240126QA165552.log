@@ -1,0 +1,133 @@
+16:55:54.512 INFO  manager.ApplicationManager - All tests run in Chrome
+16:55:55.611 INFO  manager.ApplicationManager - The link--->https://ilcarro.web.app/search
+16:55:55.625 INFO  manager.ListenerWD - Before find element By.xpath: //*[text()=' Logout ']
+16:56:05.673 INFO  manager.ListenerWD - Element found success By.xpath: //*[text()=' Logout ']
+16:56:05.675 INFO  manager.ListenerWD - Before find element By.xpath: //a[text()=' Log in ']
+16:56:05.708 INFO  manager.ListenerWD - Element found success By.xpath: //a[text()=' Log in ']
+16:56:05.717 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (ab25cda1ffc7d91dbb844c9f9d5be1e0)] -> xpath: //a[text()=' Log in ']]
+16:56:05.829 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (ab25cda1ffc7d91dbb844c9f9d5be1e0)] -> xpath: //a[text()=' Log in ']]
+16:56:05.830 INFO  manager.ListenerWD - Before find element By.xpath: //*[@id='email']
+16:56:05.854 INFO  manager.ListenerWD - Element found success By.xpath: //*[@id='email']
+16:56:05.854 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (ab25cda1ffc7d91dbb844c9f9d5be1e0)] -> xpath: //*[@id='email']]
+16:56:05.908 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (ab25cda1ffc7d91dbb844c9f9d5be1e0)] -> xpath: //*[@id='email']]
+16:56:06.153 INFO  manager.ListenerWD - Before find element By.xpath: //*[@id='password']
+16:56:06.178 INFO  manager.ListenerWD - Element found success By.xpath: //*[@id='password']
+16:56:06.179 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (ab25cda1ffc7d91dbb844c9f9d5be1e0)] -> xpath: //*[@id='password']]
+16:56:06.239 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (ab25cda1ffc7d91dbb844c9f9d5be1e0)] -> xpath: //*[@id='password']]
+16:56:06.440 INFO  manager.ListenerWD - Before find element By.xpath: //*[@type='submit']
+16:56:06.456 INFO  manager.ListenerWD - Element found success By.xpath: //*[@type='submit']
+16:56:06.456 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (ab25cda1ffc7d91dbb844c9f9d5be1e0)] -> xpath: //*[@type='submit']]
+16:56:06.509 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (ab25cda1ffc7d91dbb844c9f9d5be1e0)] -> xpath: //*[@type='submit']]
+16:56:06.509 INFO  manager.ListenerWD - Before find element By.xpath: //button[text()='Ok']
+16:56:07.448 INFO  manager.ListenerWD - Element found success By.xpath: //button[text()='Ok']
+16:56:07.448 INFO  manager.ListenerWD - Before find element By.xpath: //button[text()='Ok']
+16:56:07.467 INFO  manager.ListenerWD - Element found success By.xpath: //button[text()='Ok']
+16:56:07.468 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (ab25cda1ffc7d91dbb844c9f9d5be1e0)] -> xpath: //button[text()='Ok']]
+16:56:07.507 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (ab25cda1ffc7d91dbb844c9f9d5be1e0)] -> xpath: //button[text()='Ok']]
+16:56:07.516 INFO  tests.TestBase - test add new car wrong manufacture (empty) started
+16:56:07.516 INFO  tests.TestBase - test data: location-'', manufacture-'Kia', model-'Sportage', year-'2020', fuel-'Gas',seats-'5', car class-'C', car number-'432-232 +i',price-'50'
+16:56:08.019 INFO  manager.ListenerWD - Before find element By.xpath: //a[text()=' Let the car work ']
+16:56:08.054 INFO  manager.ListenerWD - Element found success By.xpath: //a[text()=' Let the car work ']
+16:56:08.054 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (ab25cda1ffc7d91dbb844c9f9d5be1e0)] -> xpath: //a[text()=' Let the car work ']]
+16:56:08.134 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (ab25cda1ffc7d91dbb844c9f9d5be1e0)] -> xpath: //a[text()=' Let the car work ']]
+16:56:08.136 INFO  manager.ListenerWD - Before find element By.id: pickUpPlace
+16:56:08.152 INFO  manager.ListenerWD - Element found success By.id: pickUpPlace
+16:56:08.153 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (ab25cda1ffc7d91dbb844c9f9d5be1e0)] -> id: pickUpPlace]
+16:56:08.202 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (ab25cda1ffc7d91dbb844c9f9d5be1e0)] -> id: pickUpPlace]
+16:56:08.414 INFO  manager.ListenerWD - Before find element By.cssSelector: div.pac-item
+16:56:09.247 INFO  manager.ListenerWD - Element found success By.cssSelector: div.pac-item
+16:56:09.248 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (ab25cda1ffc7d91dbb844c9f9d5be1e0)] -> css selector: div.pac-item]
+16:56:09.299 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (ab25cda1ffc7d91dbb844c9f9d5be1e0)] -> css selector: div.pac-item]
+16:56:09.299 INFO  manager.ListenerWD - Before find element By.id: make
+16:56:09.331 INFO  manager.ListenerWD - Element found success By.id: make
+16:56:09.331 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (ab25cda1ffc7d91dbb844c9f9d5be1e0)] -> id: make]
+16:56:09.387 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (ab25cda1ffc7d91dbb844c9f9d5be1e0)] -> id: make]
+16:56:09.552 INFO  manager.ListenerWD - Before find element By.id: model
+16:56:09.575 INFO  manager.ListenerWD - Element found success By.id: model
+16:56:09.576 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (ab25cda1ffc7d91dbb844c9f9d5be1e0)] -> id: model]
+16:56:09.632 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (ab25cda1ffc7d91dbb844c9f9d5be1e0)] -> id: model]
+16:56:09.797 INFO  manager.ListenerWD - Before find element By.id: year
+16:56:09.815 INFO  manager.ListenerWD - Element found success By.id: year
+16:56:09.817 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (ab25cda1ffc7d91dbb844c9f9d5be1e0)] -> id: year]
+16:56:09.864 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (ab25cda1ffc7d91dbb844c9f9d5be1e0)] -> id: year]
+16:56:10.027 INFO  manager.ListenerWD - Before find element By.id: fuel
+16:56:10.048 INFO  manager.ListenerWD - Element found success By.id: fuel
+16:56:10.078 INFO  manager.ListenerWD - Before find element By.xpath: .//option[@value = "Gas"]
+16:56:10.099 INFO  manager.ListenerWD - Element found success By.xpath: .//option[@value = "Gas"]
+16:56:10.110 INFO  manager.ListenerWD - start method click [[[[ChromeDriver: chrome on WINDOWS (ab25cda1ffc7d91dbb844c9f9d5be1e0)] -> id: fuel]] -> xpath: .//option[@value = "Gas"]]
+16:56:10.147 INFO  manager.ListenerWD - done method click on: [[[[ChromeDriver: chrome on WINDOWS (ab25cda1ffc7d91dbb844c9f9d5be1e0)] -> id: fuel]] -> xpath: .//option[@value = "Gas"]]
+16:56:10.150 INFO  manager.ListenerWD - Before find element By.id: seats
+16:56:10.176 INFO  manager.ListenerWD - Element found success By.id: seats
+16:56:10.176 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (ab25cda1ffc7d91dbb844c9f9d5be1e0)] -> id: seats]
+16:56:10.221 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (ab25cda1ffc7d91dbb844c9f9d5be1e0)] -> id: seats]
+16:56:10.430 INFO  manager.ListenerWD - Before find element By.id: class
+16:56:10.459 INFO  manager.ListenerWD - Element found success By.id: class
+16:56:10.459 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (ab25cda1ffc7d91dbb844c9f9d5be1e0)] -> id: class]
+16:56:10.529 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (ab25cda1ffc7d91dbb844c9f9d5be1e0)] -> id: class]
+16:56:10.711 INFO  manager.ListenerWD - Before find element By.id: serialNumber
+16:56:10.742 INFO  manager.ListenerWD - Element found success By.id: serialNumber
+16:56:10.742 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (ab25cda1ffc7d91dbb844c9f9d5be1e0)] -> id: serialNumber]
+16:56:10.813 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (ab25cda1ffc7d91dbb844c9f9d5be1e0)] -> id: serialNumber]
+16:56:10.939 INFO  manager.ListenerWD - Before find element By.id: price
+16:56:10.953 INFO  manager.ListenerWD - Element found success By.id: price
+16:56:10.955 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (ab25cda1ffc7d91dbb844c9f9d5be1e0)] -> id: price]
+16:56:10.995 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (ab25cda1ffc7d91dbb844c9f9d5be1e0)] -> id: price]
+16:56:11.161 INFO  manager.ListenerWD - Before find element By.id: about
+16:56:11.192 INFO  manager.ListenerWD - Element found success By.id: about
+16:56:11.192 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (ab25cda1ffc7d91dbb844c9f9d5be1e0)] -> id: about]
+16:56:11.260 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (ab25cda1ffc7d91dbb844c9f9d5be1e0)] -> id: about]
+16:56:11.361 INFO  manager.ListenerWD - Before find element By.xpath: //*[@type='submit']
+16:56:11.369 INFO  manager.ListenerWD - Element found success By.xpath: //*[@type='submit']
+16:56:11.369 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (ab25cda1ffc7d91dbb844c9f9d5be1e0)] -> xpath: //*[@type='submit']]
+16:56:11.403 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (ab25cda1ffc7d91dbb844c9f9d5be1e0)] -> xpath: //*[@type='submit']]
+16:56:11.403 INFO  manager.ListenerWD - Before find element By.xpath: //*[text()='Make is required
+'
+16:56:11.434 INFO  manager.ListenerWD - Houston we have a problem!
+16:56:11.435 INFO  manager.ListenerWD - invalid selector: Unable to locate an element with the xpath expression //*[text()='Make is required
+' because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[text()='Make is required
+'' is not a valid XPath expression.
+  (Session info: chrome=120.0.6099.225)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VITBER', ip: '192.168.68.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52618}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ab25cda1ffc7d91dbb844c9f9d5be1e0
+*** Element info: {Using=xpath, value=//*[text()='Make is required
+'}
+16:56:11.435 INFO  manager.ListenerWD - org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[text()='Make is required
+' because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[text()='Make is required
+'' is not a valid XPath expression.
+  (Session info: chrome=120.0.6099.225)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VITBER', ip: '192.168.68.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52618}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ab25cda1ffc7d91dbb844c9f9d5be1e0
+*** Element info: {Using=xpath, value=//*[text()='Make is required
+'}
+16:56:11.571 INFO  manager.ListenerWD - This is a link to screenshot with error--->src/test/screenshots/screen3371.png
+16:56:11.574 INFO  manager.ListenerWD - Before find element By.xpath: //button[text()='Search cars']
+16:56:21.607 INFO  manager.ListenerWD - Houston we have a problem!
+16:56:21.607 INFO  manager.ListenerWD - no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Search cars']"}
+  (Session info: chrome=120.0.6099.225)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VITBER', ip: '192.168.68.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52618}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ab25cda1ffc7d91dbb844c9f9d5be1e0
+*** Element info: {Using=xpath, value=//button[text()='Search cars']}
+16:56:21.607 INFO  manager.ListenerWD - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Search cars']"}
+  (Session info: chrome=120.0.6099.225)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VITBER', ip: '192.168.68.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52618}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ab25cda1ffc7d91dbb844c9f9d5be1e0
+*** Element info: {Using=xpath, value=//button[text()='Search cars']}
+16:56:21.760 INFO  manager.ListenerWD - This is a link to screenshot with error--->src/test/screenshots/screen3381.png

@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.Select;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-public class HelperCar extends HelperBase{
+public class HelperCar extends HelperBase {
     public HelperCar(WebDriver wd) {
         super(wd);
     }
@@ -20,24 +20,24 @@ public class HelperCar extends HelperBase{
 
     public void fillCarForm(Car car) {
         typeLocation(car.getLocation());
-        type(By.id("make"),car.getManufacture());
-        type(By.id("model"),car.getModel());
-        type(By.id("year"),car.getYear());
-        select(By.id("fuel"),car.getFuel());
-        type(By.id("seats"),String.valueOf(car.getSeats()));
-        type(By.id("class"),car.getCarClass());
-        type(By.id("serialNumber"),car.getCarRegNumber());
-        type(By.id("price"),car.getPrice()+"");
-        type(By.id("about"),car.getAbout());
+        type(By.id("make"), car.getManufacture());
+        type(By.id("model"), car.getModel());
+        type(By.id("year"), car.getYear());
+        select(By.id("fuel"), car.getFuel());
+        type(By.id("seats"), String.valueOf(car.getSeats()));
+        type(By.id("class"), car.getCarClass());
+        type(By.id("serialNumber"), car.getCarRegNumber());
+        type(By.id("price"), car.getPrice() + "");
+        type(By.id("about"), car.getAbout());
     }
 
     private void select(By locator, String option) {
-        Select select=new Select(wd.findElement(locator));
+        Select select = new Select(wd.findElement(locator));
         select.selectByValue(option);
     }
 
     private void typeLocation(String location) {
-        type(By.id("pickUpPlace"),location);
+        type(By.id("pickUpPlace"), location);
         click(By.cssSelector("div.pac-item"));
     }
 
@@ -53,17 +53,17 @@ public class HelperCar extends HelperBase{
         typeCity(city);
         click(By.id("dates"));
 
-        String[] from=dateFrom.split("/");
-        String locatorFrom="//div[text()=' "+from[1]+" ']";
+        String[] from = dateFrom.split("/");
+        String locatorFrom = "//div[text()=' " + from[1] + " ']";
         click(By.xpath(locatorFrom));
 
-        String[] to=dateTo.split("/");
-        String locatorTo="//div[text()=' 30 ']";
+        String[] to = dateTo.split("/");
+        String locatorTo = "//div[text()=' " + to[1] + " ']";
         click(By.xpath(locatorTo));
     }
 
     private void typeCity(String city) {
-        type(By.id("city"),city);
+        type(By.id("city"), city);
         click(By.cssSelector("div.pac-item"));
     }
 
@@ -75,25 +75,36 @@ public class HelperCar extends HelperBase{
         typeCity(city);
         click(By.id("dates"));
 
-        LocalDate now=LocalDate.now();
-        int month=now.getMonthValue();
-        int year=now.getYear();
-        int day=now.getDayOfMonth();
+        LocalDate now = LocalDate.now();
+        int month = now.getMonthValue();
+        //int year=now.getYear();
+        //int day=now.getDayOfMonth();
 
-        LocalDate from=LocalDate.parse(dateFrom, DateTimeFormatter.ofPattern("M/d/yyyy"));
+        LocalDate from = LocalDate.parse(dateFrom, DateTimeFormatter.ofPattern("M/d/yyyy"));
+        LocalDate to = LocalDate.parse(dateTo, DateTimeFormatter.ofPattern("M/d/yyyy"));
 
-        int diffMonth=from.getMonthValue()-month;
-        if(diffMonth>0){
-            clickNextMonthButton(diffMonth);
+        int diffMonthFrom = from.getMonthValue() - month;
+        if (diffMonthFrom > 0) {
+            clickNextMonthButtonFrom(diffMonthFrom);
         }
-        click(By.xpath("//div[text()=' "+from.getDayOfMonth()+" ']"));
+        click(By.xpath("//div[text()=' " + from.getDayOfMonth() + " ']"));
+
+        int diffMonthTo = to.getMonthValue() - from.getMonthValue();
+        if (diffMonthTo > 0) {
+            clickNextMonthButtonTo(diffMonthTo);
+        }
+        click(By.xpath("//div[text()=' " + to.getDayOfMonth() + " ']"));
     }
 
-    private void clickNextMonthButton(int diffMonth) {
-        for (int i = 0; i < diffMonth; i++) {
+    private void clickNextMonthButtonFrom(int diffMonthFrom) {
+        for (int i = 0; i < diffMonthFrom; i++) {
             click(By.cssSelector("button[aria-label='Next month']"));
-            
-
         }
-}
+    }
+
+    private void clickNextMonthButtonTo(int diffMonthTo) {
+        for (int i = 0; i < diffMonthTo; i++) {
+            click(By.cssSelector("button[aria-label='Next month']"));
+        }
+    }
 }

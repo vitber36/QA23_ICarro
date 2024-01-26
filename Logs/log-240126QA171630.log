@@ -1,0 +1,86 @@
+17:16:32.151 INFO  manager.ApplicationManager - All tests run in Chrome
+17:16:34.578 INFO  manager.ApplicationManager - The link--->https://ilcarro.web.app/search
+17:16:34.593 INFO  manager.ListenerWD - Before find element By.xpath: //*[text()=' Logout ']
+17:16:44.663 INFO  manager.ListenerWD - Element found success By.xpath: //*[text()=' Logout ']
+17:16:44.665 INFO  manager.ListenerWD - Before find element By.xpath: //a[text()=' Log in ']
+17:16:44.690 INFO  manager.ListenerWD - Element found success By.xpath: //a[text()=' Log in ']
+17:16:44.700 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (b9c2b062f3dc7e6f431dc7c571fe8250)] -> xpath: //a[text()=' Log in ']]
+17:16:44.792 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (b9c2b062f3dc7e6f431dc7c571fe8250)] -> xpath: //a[text()=' Log in ']]
+17:16:44.792 INFO  manager.ListenerWD - Before find element By.xpath: //*[@id='email']
+17:16:44.817 INFO  manager.ListenerWD - Element found success By.xpath: //*[@id='email']
+17:16:44.818 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (b9c2b062f3dc7e6f431dc7c571fe8250)] -> xpath: //*[@id='email']]
+17:16:44.886 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (b9c2b062f3dc7e6f431dc7c571fe8250)] -> xpath: //*[@id='email']]
+17:16:45.120 INFO  manager.ListenerWD - Before find element By.xpath: //*[@id='password']
+17:16:45.135 INFO  manager.ListenerWD - Element found success By.xpath: //*[@id='password']
+17:16:45.136 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (b9c2b062f3dc7e6f431dc7c571fe8250)] -> xpath: //*[@id='password']]
+17:16:45.170 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (b9c2b062f3dc7e6f431dc7c571fe8250)] -> xpath: //*[@id='password']]
+17:16:45.305 INFO  manager.ListenerWD - Before find element By.xpath: //*[@type='submit']
+17:16:45.322 INFO  manager.ListenerWD - Element found success By.xpath: //*[@type='submit']
+17:16:45.322 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (b9c2b062f3dc7e6f431dc7c571fe8250)] -> xpath: //*[@type='submit']]
+17:16:45.368 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (b9c2b062f3dc7e6f431dc7c571fe8250)] -> xpath: //*[@type='submit']]
+17:16:45.368 INFO  manager.ListenerWD - Before find element By.xpath: //button[text()='Ok']
+17:16:46.361 INFO  manager.ListenerWD - Element found success By.xpath: //button[text()='Ok']
+17:16:46.361 INFO  manager.ListenerWD - Before find element By.xpath: //button[text()='Ok']
+17:16:46.378 INFO  manager.ListenerWD - Element found success By.xpath: //button[text()='Ok']
+17:16:46.378 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (b9c2b062f3dc7e6f431dc7c571fe8250)] -> xpath: //button[text()='Ok']]
+17:16:46.411 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (b9c2b062f3dc7e6f431dc7c571fe8250)] -> xpath: //button[text()='Ok']]
+17:16:46.419 INFO  tests.TestBase - test add new car wrong manufacture (empty) started
+17:16:46.419 INFO  tests.TestBase - test data: location-'', manufacture-'Kia', model-'Sportage', year-'2020', fuel-'Gas',seats-'5', car class-'C', car number-'432-232 +i',price-'50'
+17:16:46.929 INFO  manager.ListenerWD - Before find element By.xpath: //a[text()=' Let the car work ']
+17:16:46.957 INFO  manager.ListenerWD - Element found success By.xpath: //a[text()=' Let the car work ']
+17:16:46.958 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (b9c2b062f3dc7e6f431dc7c571fe8250)] -> xpath: //a[text()=' Let the car work ']]
+17:16:47.019 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (b9c2b062f3dc7e6f431dc7c571fe8250)] -> xpath: //a[text()=' Let the car work ']]
+17:16:47.019 INFO  manager.ListenerWD - Before find element By.id: pickUpPlace
+17:16:47.040 INFO  manager.ListenerWD - Element found success By.id: pickUpPlace
+17:16:47.040 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (b9c2b062f3dc7e6f431dc7c571fe8250)] -> id: pickUpPlace]
+17:16:47.101 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (b9c2b062f3dc7e6f431dc7c571fe8250)] -> id: pickUpPlace]
+17:16:47.286 INFO  manager.ListenerWD - Before find element By.cssSelector: div.pac-item
+17:16:47.928 INFO  manager.ListenerWD - Element found success By.cssSelector: div.pac-item
+17:16:47.928 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (b9c2b062f3dc7e6f431dc7c571fe8250)] -> css selector: div.pac-item]
+17:16:47.966 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (b9c2b062f3dc7e6f431dc7c571fe8250)] -> css selector: div.pac-item]
+17:16:47.966 INFO  manager.ListenerWD - Before find element By.id: make
+17:16:47.997 INFO  manager.ListenerWD - Element found success By.id: make
+17:16:47.997 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (b9c2b062f3dc7e6f431dc7c571fe8250)] -> id: make]
+17:16:48.028 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (b9c2b062f3dc7e6f431dc7c571fe8250)] -> id: make]
+17:16:48.154 INFO  manager.ListenerWD - Before find element By.id: model
+17:16:48.176 INFO  manager.ListenerWD - Element found success By.id: model
+17:16:48.176 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (b9c2b062f3dc7e6f431dc7c571fe8250)] -> id: model]
+17:16:48.224 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (b9c2b062f3dc7e6f431dc7c571fe8250)] -> id: model]
+17:16:48.359 INFO  manager.ListenerWD - Before find element By.id: year
+17:16:48.381 INFO  manager.ListenerWD - Element found success By.id: year
+17:16:48.381 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (b9c2b062f3dc7e6f431dc7c571fe8250)] -> id: year]
+17:16:48.421 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (b9c2b062f3dc7e6f431dc7c571fe8250)] -> id: year]
+17:16:48.594 INFO  manager.ListenerWD - Before find element By.id: fuel
+17:16:48.615 INFO  manager.ListenerWD - Element found success By.id: fuel
+17:16:48.649 INFO  manager.ListenerWD - Before find element By.xpath: .//option[@value = "Gas"]
+17:16:48.667 INFO  manager.ListenerWD - Element found success By.xpath: .//option[@value = "Gas"]
+17:16:48.683 INFO  manager.ListenerWD - start method click [[[[ChromeDriver: chrome on WINDOWS (b9c2b062f3dc7e6f431dc7c571fe8250)] -> id: fuel]] -> xpath: .//option[@value = "Gas"]]
+17:16:48.726 INFO  manager.ListenerWD - done method click on: [[[[ChromeDriver: chrome on WINDOWS (b9c2b062f3dc7e6f431dc7c571fe8250)] -> id: fuel]] -> xpath: .//option[@value = "Gas"]]
+17:16:48.727 INFO  manager.ListenerWD - Before find element By.id: seats
+17:16:48.742 INFO  manager.ListenerWD - Element found success By.id: seats
+17:16:48.743 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (b9c2b062f3dc7e6f431dc7c571fe8250)] -> id: seats]
+17:16:48.788 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (b9c2b062f3dc7e6f431dc7c571fe8250)] -> id: seats]
+17:16:48.954 INFO  manager.ListenerWD - Before find element By.id: class
+17:16:48.971 INFO  manager.ListenerWD - Element found success By.id: class
+17:16:48.971 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (b9c2b062f3dc7e6f431dc7c571fe8250)] -> id: class]
+17:16:49.015 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (b9c2b062f3dc7e6f431dc7c571fe8250)] -> id: class]
+17:16:49.147 INFO  manager.ListenerWD - Before find element By.id: serialNumber
+17:16:49.160 INFO  manager.ListenerWD - Element found success By.id: serialNumber
+17:16:49.162 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (b9c2b062f3dc7e6f431dc7c571fe8250)] -> id: serialNumber]
+17:16:49.202 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (b9c2b062f3dc7e6f431dc7c571fe8250)] -> id: serialNumber]
+17:16:49.339 INFO  manager.ListenerWD - Before find element By.id: price
+17:16:49.364 INFO  manager.ListenerWD - Element found success By.id: price
+17:16:49.365 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (b9c2b062f3dc7e6f431dc7c571fe8250)] -> id: price]
+17:16:49.402 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (b9c2b062f3dc7e6f431dc7c571fe8250)] -> id: price]
+17:16:49.572 INFO  manager.ListenerWD - Before find element By.id: about
+17:16:49.598 INFO  manager.ListenerWD - Element found success By.id: about
+17:16:49.598 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (b9c2b062f3dc7e6f431dc7c571fe8250)] -> id: about]
+17:16:49.635 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (b9c2b062f3dc7e6f431dc7c571fe8250)] -> id: about]
+17:16:49.748 INFO  manager.ListenerWD - Before find element By.xpath: //*[@type='submit']
+17:16:49.764 INFO  manager.ListenerWD - Element found success By.xpath: //*[@type='submit']
+17:16:49.764 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (b9c2b062f3dc7e6f431dc7c571fe8250)] -> xpath: //*[@type='submit']]
+17:16:49.801 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (b9c2b062f3dc7e6f431dc7c571fe8250)] -> xpath: //*[@type='submit']]
+17:16:49.801 INFO  manager.ListenerWD - Before find element By.xpath: //*[contains(text(),'Make is required')]
+17:16:49.820 INFO  manager.ListenerWD - Element found success By.xpath: //*[contains(text(),'Make is required')]
+17:16:49.822 INFO  tests.TestBase - assert check message 'Make is required'
+17:16:49.826 INFO  tests.TestBase - ======================================
