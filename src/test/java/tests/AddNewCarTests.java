@@ -1,5 +1,6 @@
 package tests;
 
+
 import models.*;
 import org.openqa.selenium.By;
 import org.testng.Assert;
@@ -81,7 +82,7 @@ public class AddNewCarTests extends TestBase{
     @Test
     public void addNewCarWrongManufacture(){
         logger.info("test add new car wrong manufacture (empty) started");
-        logger.info("test data: location-'', manufacture-'Kia', model-'Sportage', year-'2020'," +
+        logger.info("test data: location-'Tel Aviv, Israel', manufacture-'', model-'Sportage', year-'2020'," +
                 " fuel-'Gas',seats-'5', car class-'C', car number-'432-232 +i',price-'50'");
 
         Car car=Car.builder()
@@ -103,8 +104,87 @@ public class AddNewCarTests extends TestBase{
 
         logger.info("assert check message 'Make is required'");
     }
+
+    @Test
+    public void addNewCarWrongCarModel(){
+        logger.info("test add new car wrong car model (empty) started");
+        logger.info("test data: location-'Tel Aviv, Israel', manufacture-'Kia', model-'', year-'2020'," +
+                " fuel-'Gas',seats-'5', car class-'C', car number-'432-232 +i',price-'50'");
+
+        Car car=Car.builder()
+                .location("Tel Aviv, Israel")
+                .manufacture("Kia")
+                .model("")
+                .year("2020")
+                .fuel("Gas")
+                .seats(5)
+                .carClass("C")
+                .carRegNumber("432-232")
+                .price(50)
+                .build();
+        app.getHelperCar().openCarForm();
+        app.getHelperCar().fillCarForm(car);
+        app.getHelperCar().submit();
+
+        Assert.assertTrue(app.getHelperCar().isElementPresent(By.xpath("//*[contains(text(),'Model is required')]")));
+
+        logger.info("assert check message 'Model is required'");
+    }
+
+    @Test
+    public void addNewCarWrongYear(){
+        logger.info("test add new car wrong year (empty) started");
+        logger.info("test data: location-'Tel Aviv, Israel', manufacture-'Kia', model-'Sportage', year-''," +
+                " fuel-'Gas',seats-'5', car class-'C', car number-'432-232 +i',price-'50'");
+
+        Car car=Car.builder()
+                .location("Tel Aviv, Israel")
+                .manufacture("Kia")
+                .model("Sportage")
+                .year("")
+                .fuel("Gas")
+                .seats(5)
+                .carClass("C")
+                .carRegNumber("432-232")
+                .price(50)
+                .build();
+        app.getHelperCar().openCarForm();
+        app.getHelperCar().fillCarForm(car);
+        app.getHelperCar().submit();
+
+        Assert.assertTrue(app.getHelperCar().isElementPresent(By.xpath("//*[contains(text(),'Year required')]")));
+
+        logger.info("assert check message 'Year is required'");
+    }
+    @Test
+    public void addNewCarWrongFuel(){
+        logger.info("test add new car wrong fuel (empty) started");
+        logger.info("test data: location-'Tel Aviv, Israel', manufacture-'Kia', model-'Sportage', year-'2020'," +
+                " fuel-'',seats-'5', car class-'C', car number-'432-232 +i',price-'50'");
+
+        Car car=Car.builder()
+                .location("Tel Aviv, Israel")
+                .manufacture("Kia")
+                .model("Sportage")
+                .year("2020")
+                .fuel("")
+                .seats(5)
+                .carClass("C")
+                .carRegNumber("432-232")
+                .price(50)
+                .build();
+        app.getHelperCar().openCarForm();
+        app.getHelperCar().fillCarForm(car);
+        app.getHelperCar().submit();
+
+        Assert.assertTrue(app.getHelperCar().isElementPresent(By.xpath("//*[contains(text(),'Fuel is required')]")));
+
+        logger.info("assert check message 'Fuel is required'");
+    }
+
     @AfterMethod
     public void postCondition(){
+        if(app.getHelperCar().isElementPresent(By.xpath("//button[text()='Search cars']")))
        app.getHelperCar().returnToHome();
     }
 }
