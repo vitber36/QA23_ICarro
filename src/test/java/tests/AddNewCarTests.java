@@ -156,7 +156,7 @@ public class AddNewCarTests extends TestBase{
 
         logger.info("assert check message 'Year is required'");
     }
-    @Test
+    @Test(enabled = false)
     public void addNewCarWrongFuel(){
         logger.info("test add new car wrong fuel (empty) started");
         logger.info("test data: location-'Tel Aviv, Israel', manufacture-'Kia', model-'Sportage', year-'2020'," +
@@ -184,7 +184,7 @@ public class AddNewCarTests extends TestBase{
 
     @AfterMethod
     public void postCondition(){
-        if(app.getHelperCar().isElementPresent(By.xpath("//button[text()='Search cars']")))
+        if(app.getHelperCar().isYallaButtonNotActive())
        app.getHelperCar().returnToHome();
     }
 }

@@ -35,6 +35,12 @@ public class HelperBase {
         click(By.xpath("//*[@type='submit']"));
         //click(By.xpath("//*[@type='button']"));
     }
+    public boolean isYallaButtonNotActive() {
+        boolean res = isElementPresent(By.cssSelector("button[disabled]"));
+        WebElement element = wd.findElement(By.cssSelector("button[type='submit']"));
+        boolean result = element.isEnabled();
+        return res && !result;
+    }
 
     public void click(By locator){
         WebElement element=wd.findElement(locator);
@@ -88,5 +94,16 @@ public class HelperBase {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+    public void clearTextBox(By locator){
+        WebElement el=wd.findElement(locator);
+        String os=System.getProperty("os.name");
+        System.out.println(os);
+        if(os.startsWith("Win")){
+            el.sendKeys(Keys.CONTROL,"a");
+        }else {
+            el.sendKeys(Keys.COMMAND,"a");
+        }
+        el.sendKeys(Keys.DELETE);
     }
 }

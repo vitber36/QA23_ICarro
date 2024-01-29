@@ -51,6 +51,7 @@ public class HelperCar extends HelperBase {
 
     public void searchCurrentMonth(String city, String dateFrom, String dateTo) {
         typeCity(city);
+        clearTextBox(By.id("dates"));
         click(By.id("dates"));
 
         String[] from = dateFrom.split("/");
@@ -63,6 +64,7 @@ public class HelperCar extends HelperBase {
     }
 
     private void typeCity(String city) {
+        clearTextBox(By.id("city"));
         type(By.id("city"), city);
         click(By.cssSelector("div.pac-item"));
     }
@@ -73,6 +75,7 @@ public class HelperCar extends HelperBase {
 
     public void searchCurrentYear(String city, String dateFrom, String dateTo) {
         typeCity(city);
+        clearTextBox(By.id("dates"));
         click(By.id("dates"));
 
         LocalDate now = LocalDate.now();
@@ -93,7 +96,9 @@ public class HelperCar extends HelperBase {
         if (diffMonthTo > 0) {
             clickNextMonthButtonTo(diffMonthTo);
         }
-        click(By.xpath("//div[text()=' " + to.getDayOfMonth() + " ']"));
+        //click(By.xpath("//div[text()=' " + to.getDayOfMonth() + " ']"));
+    String locator=String.format("//div[text()=' %s ']",to.getDayOfMonth());
+        click(By.xpath(locator));
     }
 
     private void clickNextMonthButtonFrom(int diffMonthFrom) {
@@ -106,5 +111,43 @@ public class HelperCar extends HelperBase {
         for (int i = 0; i < diffMonthTo; i++) {
             click(By.cssSelector("button[aria-label='Next month']"));
         }
+    }
+
+    public void searchAnyPeriod(String city, String dateFrom, String dateTo) {
+        typeCity(city);
+        clearTextBox(By.id("dates"));
+        click(By.id("dates"));
+
+        LocalDate now = LocalDate.now();
+        LocalDate from = LocalDate.parse(dateFrom, DateTimeFormatter.ofPattern("M/d/yyyy"));
+        LocalDate to = LocalDate.parse(dateTo, DateTimeFormatter.ofPattern("M/d/yyyy"));
+
+        int diffYear;
+        int diffMonth;
+
+        diffYear = from.getYear() - now.getYear();
+        if (diffYear == 0) {
+            diffMonth = from.getMonthValue() - now.getMonthValue();
+        } else {
+            diffMonth = 12 - now.getMonthValue() + from.getMonthValue();
+        }
+        clickNextMonthButtonFrom(diffMonth);
+        String locator=String.format("//div[text()=' %s ']",from.getDayOfMonth());
+        click(By.xpath(locator));
+
+        //***to****
+        diffYear=to.getYear()-from.getYear();
+        if(diffYear==0){
+            diffMonth=to.getMonthValue()-from.getMonthValue();
+        }else{
+            diffMonth=12-from.getDayOfMonth()+to.getMonthValue();
+        }
+        clickNextMonthButtonTo(diffMonth);
+        locator=String.format("//div[text()=' %s ']",to.getDayOfMonth());
+        click(By.xpath(locator));
+    }
+
+    public void navigateByLogo() {
+        click(By.cssSelector("a.logo"));
     }
 }

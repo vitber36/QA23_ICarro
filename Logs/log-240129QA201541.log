@@ -1,0 +1,113 @@
+20:15:43.343 INFO  manager.ApplicationManager - All tests run in Chrome
+20:15:44.782 INFO  manager.ApplicationManager - The link--->https://ilcarro.web.app/search
+20:15:44.824 INFO  manager.ListenerWD - Before find element By.id: city
+20:15:44.844 INFO  manager.ListenerWD - Element found success By.id: city
+20:15:44.851 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (7e4ed12c1c31da1fed5351a5f2d7844a)] -> id: city]
+20:15:44.939 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (7e4ed12c1c31da1fed5351a5f2d7844a)] -> id: city]
+20:15:45.161 INFO  manager.ListenerWD - Before find element By.cssSelector: div.pac-item
+20:15:45.813 INFO  manager.ListenerWD - Element found success By.cssSelector: div.pac-item
+20:15:45.814 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (7e4ed12c1c31da1fed5351a5f2d7844a)] -> css selector: div.pac-item]
+20:15:45.873 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (7e4ed12c1c31da1fed5351a5f2d7844a)] -> css selector: div.pac-item]
+20:15:45.874 INFO  manager.ListenerWD - Before find element By.id: dates
+20:15:45.893 INFO  manager.ListenerWD - Element found success By.id: dates
+20:15:45.893 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (7e4ed12c1c31da1fed5351a5f2d7844a)] -> id: dates]
+20:15:46.027 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (7e4ed12c1c31da1fed5351a5f2d7844a)] -> id: dates]
+20:15:46.049 INFO  manager.ListenerWD - Before find element By.cssSelector: button[aria-label='Next month']
+20:15:46.080 INFO  manager.ListenerWD - Element found success By.cssSelector: button[aria-label='Next month']
+20:15:46.080 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (7e4ed12c1c31da1fed5351a5f2d7844a)] -> css selector: button[aria-label='Next month']]
+20:15:46.229 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (7e4ed12c1c31da1fed5351a5f2d7844a)] -> css selector: button[aria-label='Next month']]
+20:15:46.231 INFO  manager.ListenerWD - Before find element By.cssSelector: button[aria-label='Next month']
+20:15:46.260 INFO  manager.ListenerWD - Element found success By.cssSelector: button[aria-label='Next month']
+20:15:46.260 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (7e4ed12c1c31da1fed5351a5f2d7844a)] -> css selector: button[aria-label='Next month']]
+20:15:46.347 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (7e4ed12c1c31da1fed5351a5f2d7844a)] -> css selector: button[aria-label='Next month']]
+20:15:46.347 INFO  manager.ListenerWD - Before find element By.cssSelector: button[aria-label='Next month']
+20:15:46.374 INFO  manager.ListenerWD - Element found success By.cssSelector: button[aria-label='Next month']
+20:15:46.375 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (7e4ed12c1c31da1fed5351a5f2d7844a)] -> css selector: button[aria-label='Next month']]
+20:15:46.455 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (7e4ed12c1c31da1fed5351a5f2d7844a)] -> css selector: button[aria-label='Next month']]
+20:15:46.455 INFO  manager.ListenerWD - Before find element By.cssSelector: button[aria-label='Next month']
+20:15:46.480 INFO  manager.ListenerWD - Element found success By.cssSelector: button[aria-label='Next month']
+20:15:46.481 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (7e4ed12c1c31da1fed5351a5f2d7844a)] -> css selector: button[aria-label='Next month']]
+20:15:46.530 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (7e4ed12c1c31da1fed5351a5f2d7844a)] -> css selector: button[aria-label='Next month']]
+20:15:46.530 INFO  manager.ListenerWD - Before find element By.cssSelector: button[aria-label='Next month']
+20:15:46.556 INFO  manager.ListenerWD - Element found success By.cssSelector: button[aria-label='Next month']
+20:15:46.556 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (7e4ed12c1c31da1fed5351a5f2d7844a)] -> css selector: button[aria-label='Next month']]
+20:15:46.623 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (7e4ed12c1c31da1fed5351a5f2d7844a)] -> css selector: button[aria-label='Next month']]
+20:15:46.623 INFO  manager.ListenerWD - Before find element By.xpath: //div[text()=' 11 ']
+20:15:46.663 INFO  manager.ListenerWD - Element found success By.xpath: //div[text()=' 11 ']
+20:15:46.663 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (7e4ed12c1c31da1fed5351a5f2d7844a)] -> xpath: //div[text()=' 11 ']]
+20:15:46.755 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (7e4ed12c1c31da1fed5351a5f2d7844a)] -> xpath: //div[text()=' 11 ']]
+20:15:46.756 INFO  manager.ListenerWD - Before find element By.cssSelector: button[aria-label='Next month']
+20:15:46.775 INFO  manager.ListenerWD - Element found success By.cssSelector: button[aria-label='Next month']
+20:15:46.775 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (7e4ed12c1c31da1fed5351a5f2d7844a)] -> css selector: button[aria-label='Next month']]
+20:15:46.854 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (7e4ed12c1c31da1fed5351a5f2d7844a)] -> css selector: button[aria-label='Next month']]
+20:15:46.855 INFO  manager.ListenerWD - Before find element By.cssSelector: button[aria-label='Next month']
+20:15:46.867 INFO  manager.ListenerWD - Element found success By.cssSelector: button[aria-label='Next month']
+20:15:46.867 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (7e4ed12c1c31da1fed5351a5f2d7844a)] -> css selector: button[aria-label='Next month']]
+20:15:46.938 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (7e4ed12c1c31da1fed5351a5f2d7844a)] -> css selector: button[aria-label='Next month']]
+20:15:46.938 INFO  manager.ListenerWD - Before find element By.xpath: //div[text()=' 15 ']
+20:15:46.975 INFO  manager.ListenerWD - Element found success By.xpath: //div[text()=' 15 ']
+20:15:46.975 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (7e4ed12c1c31da1fed5351a5f2d7844a)] -> xpath: //div[text()=' 15 ']]
+20:15:47.109 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (7e4ed12c1c31da1fed5351a5f2d7844a)] -> xpath: //div[text()=' 15 ']]
+20:15:47.109 INFO  manager.ListenerWD - Before find element By.xpath: //*[@type='submit']
+20:15:47.140 INFO  manager.ListenerWD - Element found success By.xpath: //*[@type='submit']
+20:15:47.141 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (7e4ed12c1c31da1fed5351a5f2d7844a)] -> xpath: //*[@type='submit']]
+20:15:47.290 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (7e4ed12c1c31da1fed5351a5f2d7844a)] -> xpath: //*[@type='submit']]
+20:15:47.290 INFO  manager.ListenerWD - Before find element By.cssSelector: a.car-container
+20:15:51.283 INFO  manager.ListenerWD - Element found success By.cssSelector: a.car-container
+20:15:51.317 INFO  tests.TestBase - ======================================
+20:15:51.334 INFO  manager.ListenerWD - Before find element By.id: city
+20:15:51.373 INFO  manager.ListenerWD - Element found success By.id: city
+20:15:51.373 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (7e4ed12c1c31da1fed5351a5f2d7844a)] -> id: city]
+20:15:51.764 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (7e4ed12c1c31da1fed5351a5f2d7844a)] -> id: city]
+20:15:54.682 INFO  manager.ListenerWD - Before find element By.cssSelector: div.pac-item
+20:15:54.715 INFO  manager.ListenerWD - Element found success By.cssSelector: div.pac-item
+20:15:54.716 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (7e4ed12c1c31da1fed5351a5f2d7844a)] -> css selector: div.pac-item]
+20:15:54.991 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (7e4ed12c1c31da1fed5351a5f2d7844a)] -> css selector: div.pac-item]
+20:15:54.991 INFO  manager.ListenerWD - Before find element By.id: dates
+20:16:05.043 INFO  manager.ListenerWD - Houston we have a problem!
+20:16:05.043 INFO  manager.ListenerWD - no such element: Unable to locate element: {"method":"css selector","selector":"#dates"}
+  (Session info: chrome=120.0.6099.225)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VITBER', ip: '192.168.68.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52800}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e4ed12c1c31da1fed5351a5f2d7844a
+*** Element info: {Using=id, value=dates}
+20:16:05.043 INFO  manager.ListenerWD - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#dates"}
+  (Session info: chrome=120.0.6099.225)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VITBER', ip: '192.168.68.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52800}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e4ed12c1c31da1fed5351a5f2d7844a
+*** Element info: {Using=id, value=dates}
+20:16:05.693 INFO  manager.ListenerWD - This is a link to screenshot with error--->src/test/screenshots/screen965.png
+20:16:05.695 INFO  tests.TestBase - ======================================
+20:16:05.697 INFO  manager.ListenerWD - Before find element By.id: city
+20:16:05.721 INFO  manager.ListenerWD - Element found success By.id: city
+20:16:05.721 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (7e4ed12c1c31da1fed5351a5f2d7844a)] -> id: city]
+20:16:05.986 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (7e4ed12c1c31da1fed5351a5f2d7844a)] -> id: city]
+20:16:08.519 INFO  manager.ListenerWD - Before find element By.cssSelector: div.pac-item
+20:16:18.617 INFO  manager.ListenerWD - Houston we have a problem!
+20:16:18.617 INFO  manager.ListenerWD - no such element: Unable to locate element: {"method":"css selector","selector":"div.pac-item"}
+  (Session info: chrome=120.0.6099.225)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VITBER', ip: '192.168.68.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52800}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e4ed12c1c31da1fed5351a5f2d7844a
+*** Element info: {Using=css selector, value=div.pac-item}
+20:16:18.618 INFO  manager.ListenerWD - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.pac-item"}
+  (Session info: chrome=120.0.6099.225)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VITBER', ip: '192.168.68.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52800}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e4ed12c1c31da1fed5351a5f2d7844a
+*** Element info: {Using=css selector, value=div.pac-item}
+20:16:19.301 INFO  manager.ListenerWD - This is a link to screenshot with error--->src/test/screenshots/screen978.png
+20:16:19.302 INFO  tests.TestBase - ======================================
