@@ -36,4 +36,14 @@ public class SearchCarTests extends TestBase{
 
         Assert.assertTrue(app.getHelperCar().isListOfCarAppeared());
     }
+
+    @Test
+    public void searchWrongDate(){
+        app.getHelperCar().wrongDate("Tel Aviv, Israel","6/11/2023","1/15/2026");
+        app.getHelperCar().getScreen("src/test/screenshots/wrong.png");
+        app.getHelperCar().submit();
+
+        Assert.assertTrue(app.getHelperCar().isYallaButtonNotActive());
+        Assert.assertEquals(app.getHelperCar().wrongDataMessage(),"You can't pick date before today");
+    }
 }

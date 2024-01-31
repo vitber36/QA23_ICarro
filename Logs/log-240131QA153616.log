@@ -1,0 +1,40 @@
+15:36:18.659 INFO  manager.ApplicationManager - All tests run in Chrome
+15:36:19.737 INFO  manager.ApplicationManager - The link--->https://ilcarro.web.app/search
+15:36:19.759 INFO  manager.ListenerWD - Before find element By.cssSelector: a.logo
+15:36:19.777 INFO  manager.ListenerWD - Element found success By.cssSelector: a.logo
+15:36:19.780 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (f6ea60e983f160075f7464cc5711d3a7)] -> css selector: a.logo]
+15:36:20.116 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (f6ea60e983f160075f7464cc5711d3a7)] -> css selector: a.logo]
+15:36:20.128 INFO  manager.ListenerWD - Before find element By.id: city
+15:36:20.158 INFO  manager.ListenerWD - Element found success By.id: city
+15:36:20.257 INFO  manager.ListenerWD - Before find element By.id: city
+15:36:20.271 INFO  manager.ListenerWD - Element found success By.id: city
+15:36:20.271 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (f6ea60e983f160075f7464cc5711d3a7)] -> id: city]
+15:36:20.308 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (f6ea60e983f160075f7464cc5711d3a7)] -> id: city]
+15:36:20.470 INFO  manager.ListenerWD - Before find element By.cssSelector: div.pac-item
+15:36:20.742 INFO  manager.ListenerWD - Element found success By.cssSelector: div.pac-item
+15:36:20.743 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (f6ea60e983f160075f7464cc5711d3a7)] -> css selector: div.pac-item]
+15:36:20.792 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (f6ea60e983f160075f7464cc5711d3a7)] -> css selector: div.pac-item]
+15:36:20.792 INFO  manager.ListenerWD - Before find element By.id: dates
+15:36:20.810 INFO  manager.ListenerWD - Element found success By.id: dates
+15:36:20.810 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (f6ea60e983f160075f7464cc5711d3a7)] -> id: dates]
+15:36:20.903 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (f6ea60e983f160075f7464cc5711d3a7)] -> id: dates]
+15:36:20.903 INFO  manager.ListenerWD - Before find element By.xpath: //*[@href='/search']
+15:36:20.922 INFO  manager.ListenerWD - Element found success By.xpath: //*[@href='/search']
+15:36:20.923 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (f6ea60e983f160075f7464cc5711d3a7)] -> xpath: //*[@href='/search']]
+15:36:21.975 INFO  manager.ListenerWD - Houston we have a problem!
+15:36:21.976 INFO  manager.ListenerWD - element click intercepted: Element <a _ngcontent-vrj-c44="" class="navigation-link" id="0" ng-reflect-router-link="search" href="/search">...</a> is not clickable at point (729, 34). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=120.0.6099.225)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VITBER', ip: '192.168.68.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52838}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f6ea60e983f160075f7464cc5711d3a7
+15:36:21.976 INFO  manager.ListenerWD - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-vrj-c44="" class="navigation-link" id="0" ng-reflect-router-link="search" href="/search">...</a> is not clickable at point (729, 34). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=120.0.6099.225)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VITBER', ip: '192.168.68.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52838}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f6ea60e983f160075f7464cc5711d3a7
+15:36:22.303 INFO  manager.ListenerWD - This is a link to screenshot with error--->src/test/screenshots/screen2181.png
+15:36:22.305 INFO  tests.TestBase - ======================================

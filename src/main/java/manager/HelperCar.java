@@ -150,4 +150,16 @@ public class HelperCar extends HelperBase {
     public void navigateByLogo() {
         click(By.cssSelector("a.logo"));
     }
+
+    public void wrongDate(String city, String dateFrom, String dateTo) {
+        typeCity(city);
+        click(By.id("dates"));
+        click(By.xpath("/html/body/div[2]/div[1]"));
+        type(By.id("dates"),dateFrom+" - "+dateTo);
+        click(By.xpath("/html/body/div[2]/div[1]"));
+    }
+
+    public String wrongDataMessage() {
+        return wd.findElement(By.xpath("/html/body/app-root/app-navigator/app-search/div/div/form/div[2]/div/div[1]")).getText();
+    }
 }

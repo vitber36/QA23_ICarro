@@ -1,0 +1,64 @@
+16:15:07.617 INFO  manager.ApplicationManager - All tests run in Chrome
+16:15:08.775 INFO  manager.ApplicationManager - The link--->https://ilcarro.web.app/search
+16:15:08.804 INFO  manager.ListenerWD - Before find element By.cssSelector: a.logo
+16:15:08.821 INFO  manager.ListenerWD - Element found success By.cssSelector: a.logo
+16:15:08.826 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (f5677378a1a172556e648a5e047171c5)] -> css selector: a.logo]
+16:15:09.199 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (f5677378a1a172556e648a5e047171c5)] -> css selector: a.logo]
+16:15:09.205 INFO  manager.ListenerWD - Before find element By.id: city
+16:15:09.231 INFO  manager.ListenerWD - Element found success By.id: city
+16:15:09.313 INFO  manager.ListenerWD - Before find element By.id: city
+16:15:09.332 INFO  manager.ListenerWD - Element found success By.id: city
+16:15:09.333 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (f5677378a1a172556e648a5e047171c5)] -> id: city]
+16:15:09.371 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (f5677378a1a172556e648a5e047171c5)] -> id: city]
+16:15:09.533 INFO  manager.ListenerWD - Before find element By.cssSelector: div.pac-item
+16:15:09.863 INFO  manager.ListenerWD - Element found success By.cssSelector: div.pac-item
+16:15:09.864 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (f5677378a1a172556e648a5e047171c5)] -> css selector: div.pac-item]
+16:15:09.903 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (f5677378a1a172556e648a5e047171c5)] -> css selector: div.pac-item]
+16:15:09.904 INFO  manager.ListenerWD - Before find element By.id: dates
+16:15:09.931 INFO  manager.ListenerWD - Element found success By.id: dates
+16:15:09.931 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (f5677378a1a172556e648a5e047171c5)] -> id: dates]
+16:15:10.003 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (f5677378a1a172556e648a5e047171c5)] -> id: dates]
+16:15:10.003 INFO  manager.ListenerWD - Before find element By.xpath: /html/body/div[2]/div[1]
+16:15:10.026 INFO  manager.ListenerWD - Element found success By.xpath: /html/body/div[2]/div[1]
+16:15:10.026 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (f5677378a1a172556e648a5e047171c5)] -> xpath: /html/body/div[2]/div[1]]
+16:15:10.082 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (f5677378a1a172556e648a5e047171c5)] -> xpath: /html/body/div[2]/div[1]]
+16:15:10.082 INFO  manager.ListenerWD - Before find element By.id: dates
+16:15:10.104 INFO  manager.ListenerWD - Element found success By.id: dates
+16:15:10.105 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (f5677378a1a172556e648a5e047171c5)] -> id: dates]
+16:15:10.180 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (f5677378a1a172556e648a5e047171c5)] -> id: dates]
+16:15:10.400 INFO  manager.ListenerWD - Before find element By.xpath: /html/body/div[2]/div[1]
+16:15:10.415 INFO  manager.ListenerWD - Element found success By.xpath: /html/body/div[2]/div[1]
+16:15:10.416 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (f5677378a1a172556e648a5e047171c5)] -> xpath: /html/body/div[2]/div[1]]
+16:15:10.452 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (f5677378a1a172556e648a5e047171c5)] -> xpath: /html/body/div[2]/div[1]]
+16:15:10.850 INFO  manager.ListenerWD - Before find element By.xpath: //*[@type='submit']
+16:15:10.870 INFO  manager.ListenerWD - Element found success By.xpath: //*[@type='submit']
+16:15:10.870 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (f5677378a1a172556e648a5e047171c5)] -> xpath: //*[@type='submit']]
+16:15:10.900 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (f5677378a1a172556e648a5e047171c5)] -> xpath: //*[@type='submit']]
+16:15:10.900 INFO  manager.ListenerWD - Before find element By.cssSelector: button[disabled]
+16:15:10.920 INFO  manager.ListenerWD - Element found success By.cssSelector: button[disabled]
+16:15:10.921 INFO  manager.ListenerWD - Before find element By.cssSelector: button[type='submit']
+16:15:10.934 INFO  manager.ListenerWD - Element found success By.cssSelector: button[type='submit']
+16:15:10.944 INFO  manager.ListenerWD - Before find element By.xpath: //*[text()=' You can't pick date before today '
+16:15:10.979 INFO  manager.ListenerWD - Houston we have a problem!
+16:15:10.979 INFO  manager.ListenerWD - invalid selector: Unable to locate an element with the xpath expression //*[text()=' You can't pick date before today ' because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[text()=' You can't pick date before today '' is not a valid XPath expression.
+  (Session info: chrome=120.0.6099.225)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VITBER', ip: '192.168.68.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54393}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f5677378a1a172556e648a5e047171c5
+*** Element info: {Using=xpath, value=//*[text()=' You can't pick date before today '}
+16:15:10.980 INFO  manager.ListenerWD - org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[text()=' You can't pick date before today ' because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[text()=' You can't pick date before today '' is not a valid XPath expression.
+  (Session info: chrome=120.0.6099.225)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VITBER', ip: '192.168.68.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54393}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f5677378a1a172556e648a5e047171c5
+*** Element info: {Using=xpath, value=//*[text()=' You can't pick date before today '}
+16:15:11.287 INFO  manager.ListenerWD - This is a link to screenshot with error--->src/test/screenshots/screen910.png
+16:15:11.288 INFO  tests.TestBase - ======================================

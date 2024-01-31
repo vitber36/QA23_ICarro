@@ -1,10 +1,18 @@
 package tests;
 
+import manager.DataProviderUser;
+import models.Car;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Objects;
 
 public class
 LoginTests extends TestBase{
@@ -34,16 +42,16 @@ LoginTests extends TestBase{
     }
 
 
-    @Test
-    public void loginSuccess() {
+    @Test(dataProvider="loginDate",dataProviderClass = DataProviderUser.class)
+    public void loginSuccess(String email,String password) {
         logger.info("Start test with name 'login success'");
-        logger.info("Test data--> email:'vitber06@mail.ru' & password: '1978Vit@lik'");
+        logger.info("Test data--> email: "+email+" & password: "+password);
 
         User user = new User().withEmail("vitber06@mail.ru").withPassword("1978Vit@lik");
 //        user.setEmail("vitber06@mail.ru");
 //        user.setPassword("1978Vit@lik");
         app.getHelperUser().openLoginForm();
-        app.getHelperUser().fillLoginForm(user);
+        app.getHelperUser().fillLoginForm(email,password);
         app.getHelperUser().submit();
         //Assert if element with text "Logged in success" is present
         Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
@@ -52,12 +60,14 @@ LoginTests extends TestBase{
         logger.info("Assert message 'Logged in success' is present");
     }
 
-    @Test
-    public void loginSuccessModel() {
-        logger.info("Start test with name 'login success model'");
-        logger.info("Test data--> email:'vitber06@mail.ru' & password: '1978Vit@lik'");
 
-        User user = new User().withEmail("vitber06@mail.ru").withPassword("1978Vit@lik");
+
+    @Test(dataProvider = "loginModels",dataProviderClass = DataProviderUser.class)
+    public void loginSuccessModel(User user) {
+        logger.info("Start test with name 'login success model'");
+        logger.info("Test data--> "+user.toString());
+
+        //User user = new User().withEmail("vitber06@mail.ru").withPassword("1978Vit@lik");
 //        user.setEmail("vitber06@mail.ru");
 //        user.setPassword("1978Vit@lik");
         app.getHelperUser().openLoginForm();

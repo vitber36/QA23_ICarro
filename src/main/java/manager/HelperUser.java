@@ -32,7 +32,10 @@ public class HelperUser extends HelperBase{
         type(By.xpath("//*[@id='password']"), user.getPassword());
     }
 
-
+    public void fillLoginForm(String email, String password) {
+        type(By.xpath("//*[@id='email']"), email);
+        type(By.xpath("//*[@id='password']"), password);
+    }
 
 
     public boolean isLogged() {
@@ -115,4 +118,6 @@ public class HelperUser extends HelperBase{
     public String getMessageWrongPasswordShort() {
         return wd.findElement(By.xpath("//*[contains(text(),'minimum 8 symbols')]")).getText();
     }
+
+
 }

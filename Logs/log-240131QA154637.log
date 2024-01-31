@@ -1,0 +1,40 @@
+15:46:39.520 INFO  manager.ApplicationManager - All tests run in Chrome
+15:46:40.642 INFO  manager.ApplicationManager - The link--->https://ilcarro.web.app/search
+15:46:40.680 INFO  manager.ListenerWD - Before find element By.cssSelector: a.logo
+15:46:40.702 INFO  manager.ListenerWD - Element found success By.cssSelector: a.logo
+15:46:40.711 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (dde308693a64bb69328e2075eeef5169)] -> css selector: a.logo]
+15:46:41.098 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (dde308693a64bb69328e2075eeef5169)] -> css selector: a.logo]
+15:46:41.100 INFO  manager.ListenerWD - Before find element By.id: city
+15:46:41.122 INFO  manager.ListenerWD - Element found success By.id: city
+15:46:41.223 INFO  manager.ListenerWD - Before find element By.id: city
+15:46:41.242 INFO  manager.ListenerWD - Element found success By.id: city
+15:46:41.242 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (dde308693a64bb69328e2075eeef5169)] -> id: city]
+15:46:41.280 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (dde308693a64bb69328e2075eeef5169)] -> id: city]
+15:46:41.447 INFO  manager.ListenerWD - Before find element By.cssSelector: div.pac-item
+15:46:42.026 INFO  manager.ListenerWD - Element found success By.cssSelector: div.pac-item
+15:46:42.026 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (dde308693a64bb69328e2075eeef5169)] -> css selector: div.pac-item]
+15:46:42.073 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (dde308693a64bb69328e2075eeef5169)] -> css selector: div.pac-item]
+15:46:42.074 INFO  manager.ListenerWD - Before find element By.id: dates
+15:46:42.096 INFO  manager.ListenerWD - Element found success By.id: dates
+15:46:42.096 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (dde308693a64bb69328e2075eeef5169)] -> id: dates]
+15:46:42.169 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (dde308693a64bb69328e2075eeef5169)] -> id: dates]
+15:46:42.169 INFO  manager.ListenerWD - Before find element By.id: dates
+15:46:42.189 INFO  manager.ListenerWD - Element found success By.id: dates
+15:46:42.190 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (dde308693a64bb69328e2075eeef5169)] -> id: dates]
+15:46:43.264 INFO  manager.ListenerWD - Houston we have a problem!
+15:46:43.264 INFO  manager.ListenerWD - element click intercepted: Element <input _ngcontent-mgx-c106="" formcontrolname="dates" id="dates" ng-reflect-name="dates" ng-reflect-label="[object HTMLLabelElement]" ng-reflect-max="Thu Jan 30 2025 15:46:40 GMT+0" ng-reflect-min="Wed Jan 31 2024 15:46:40 GMT+0" ng-reflect-sat-datepicker="[object Object]" class="ng-pristine ng-invalid ng-touched" aria-haspopup="dialog" min="2024-01-31" max="2025-01-30" aria-owns="sat-datepicker-0"> is not clickable at point (301, 328). Other element would receive the click: <div class="mat-calendar-body-cell-content mat-calendar-body-today">...</div>
+  (Session info: chrome=120.0.6099.225)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VITBER', ip: '192.168.68.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53235}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dde308693a64bb69328e2075eeef5169
+15:46:43.265 INFO  manager.ListenerWD - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input _ngcontent-mgx-c106="" formcontrolname="dates" id="dates" ng-reflect-name="dates" ng-reflect-label="[object HTMLLabelElement]" ng-reflect-max="Thu Jan 30 2025 15:46:40 GMT+0" ng-reflect-min="Wed Jan 31 2024 15:46:40 GMT+0" ng-reflect-sat-datepicker="[object Object]" class="ng-pristine ng-invalid ng-touched" aria-haspopup="dialog" min="2024-01-31" max="2025-01-30" aria-owns="sat-datepicker-0"> is not clickable at point (301, 328). Other element would receive the click: <div class="mat-calendar-body-cell-content mat-calendar-body-today">...</div>
+  (Session info: chrome=120.0.6099.225)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VITBER', ip: '192.168.68.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53235}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dde308693a64bb69328e2075eeef5169
+15:46:43.617 INFO  manager.ListenerWD - This is a link to screenshot with error--->src/test/screenshots/screen2803.png
+15:46:43.620 INFO  tests.TestBase - ======================================

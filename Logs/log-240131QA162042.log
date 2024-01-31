@@ -1,0 +1,45 @@
+16:20:44.480 INFO  manager.ApplicationManager - All tests run in Chrome
+16:20:45.556 INFO  manager.ApplicationManager - The link--->https://ilcarro.web.app/search
+16:20:45.583 INFO  manager.ListenerWD - Before find element By.cssSelector: a.logo
+16:20:45.598 INFO  manager.ListenerWD - Element found success By.cssSelector: a.logo
+16:20:45.601 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (8a0ccce4c58980da1650205cbefd4513)] -> css selector: a.logo]
+16:20:45.956 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (8a0ccce4c58980da1650205cbefd4513)] -> css selector: a.logo]
+16:20:45.966 INFO  manager.ListenerWD - Before find element By.id: city
+16:20:45.990 INFO  manager.ListenerWD - Element found success By.id: city
+16:20:46.088 INFO  manager.ListenerWD - Before find element By.id: city
+16:20:46.105 INFO  manager.ListenerWD - Element found success By.id: city
+16:20:46.105 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (8a0ccce4c58980da1650205cbefd4513)] -> id: city]
+16:20:46.144 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (8a0ccce4c58980da1650205cbefd4513)] -> id: city]
+16:20:46.317 INFO  manager.ListenerWD - Before find element By.cssSelector: div.pac-item
+16:20:46.900 INFO  manager.ListenerWD - Element found success By.cssSelector: div.pac-item
+16:20:46.900 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (8a0ccce4c58980da1650205cbefd4513)] -> css selector: div.pac-item]
+16:20:46.939 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (8a0ccce4c58980da1650205cbefd4513)] -> css selector: div.pac-item]
+16:20:46.939 INFO  manager.ListenerWD - Before find element By.id: dates
+16:20:46.963 INFO  manager.ListenerWD - Element found success By.id: dates
+16:20:46.963 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (8a0ccce4c58980da1650205cbefd4513)] -> id: dates]
+16:20:47.055 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (8a0ccce4c58980da1650205cbefd4513)] -> id: dates]
+16:20:47.055 INFO  manager.ListenerWD - Before find element By.xpath: /html/body/div[2]/div[1]
+16:20:47.073 INFO  manager.ListenerWD - Element found success By.xpath: /html/body/div[2]/div[1]
+16:20:47.073 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (8a0ccce4c58980da1650205cbefd4513)] -> xpath: /html/body/div[2]/div[1]]
+16:20:47.126 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (8a0ccce4c58980da1650205cbefd4513)] -> xpath: /html/body/div[2]/div[1]]
+16:20:47.126 INFO  manager.ListenerWD - Before find element By.id: dates
+16:20:47.151 INFO  manager.ListenerWD - Element found success By.id: dates
+16:20:47.151 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (8a0ccce4c58980da1650205cbefd4513)] -> id: dates]
+16:20:47.225 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (8a0ccce4c58980da1650205cbefd4513)] -> id: dates]
+16:20:47.452 INFO  manager.ListenerWD - Before find element By.xpath: /html/body/div[2]/div[1]
+16:20:47.473 INFO  manager.ListenerWD - Element found success By.xpath: /html/body/div[2]/div[1]
+16:20:47.473 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (8a0ccce4c58980da1650205cbefd4513)] -> xpath: /html/body/div[2]/div[1]]
+16:20:47.514 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (8a0ccce4c58980da1650205cbefd4513)] -> xpath: /html/body/div[2]/div[1]]
+16:20:47.890 INFO  manager.ListenerWD - Before find element By.xpath: //*[@type='submit']
+16:20:47.904 INFO  manager.ListenerWD - Element found success By.xpath: //*[@type='submit']
+16:20:47.905 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (8a0ccce4c58980da1650205cbefd4513)] -> xpath: //*[@type='submit']]
+16:20:47.931 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (8a0ccce4c58980da1650205cbefd4513)] -> xpath: //*[@type='submit']]
+16:20:47.931 INFO  manager.ListenerWD - Before find element By.cssSelector: button[disabled]
+16:20:47.950 INFO  manager.ListenerWD - Element found success By.cssSelector: button[disabled]
+16:20:47.950 INFO  manager.ListenerWD - Before find element By.cssSelector: button[type='submit']
+16:20:47.966 INFO  manager.ListenerWD - Element found success By.cssSelector: button[type='submit']
+16:20:47.973 INFO  manager.ListenerWD - Before find element By.xpath: /html/body/app-root/app-navigator/app-search/div/div/form/div[2]/div/div[1]
+16:20:47.998 INFO  manager.ListenerWD - Element found success By.xpath: /html/body/app-root/app-navigator/app-search/div/div/form/div[2]/div/div[1]
+16:20:48.011 INFO  manager.ListenerWD - get text from the element with text: You can't pick date before today
+16:20:48.022 INFO  manager.ListenerWD - got the text successful: You can't pick date before today
+16:20:48.024 INFO  tests.TestBase - ======================================

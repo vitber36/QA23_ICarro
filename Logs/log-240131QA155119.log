@@ -1,0 +1,40 @@
+15:51:21.120 INFO  manager.ApplicationManager - All tests run in Chrome
+15:51:22.222 INFO  manager.ApplicationManager - The link--->https://ilcarro.web.app/search
+15:51:22.244 INFO  manager.ListenerWD - Before find element By.cssSelector: a.logo
+15:51:22.271 INFO  manager.ListenerWD - Element found success By.cssSelector: a.logo
+15:51:22.276 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (f9db1673e9d62a6385796d1da4044cc9)] -> css selector: a.logo]
+15:51:22.627 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (f9db1673e9d62a6385796d1da4044cc9)] -> css selector: a.logo]
+15:51:22.631 INFO  manager.ListenerWD - Before find element By.id: city
+15:51:22.657 INFO  manager.ListenerWD - Element found success By.id: city
+15:51:22.751 INFO  manager.ListenerWD - Before find element By.id: city
+15:51:22.766 INFO  manager.ListenerWD - Element found success By.id: city
+15:51:22.766 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (f9db1673e9d62a6385796d1da4044cc9)] -> id: city]
+15:51:22.804 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (f9db1673e9d62a6385796d1da4044cc9)] -> id: city]
+15:51:22.972 INFO  manager.ListenerWD - Before find element By.cssSelector: div.pac-item
+15:51:23.553 INFO  manager.ListenerWD - Element found success By.cssSelector: div.pac-item
+15:51:23.553 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (f9db1673e9d62a6385796d1da4044cc9)] -> css selector: div.pac-item]
+15:51:23.599 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (f9db1673e9d62a6385796d1da4044cc9)] -> css selector: div.pac-item]
+15:51:23.600 INFO  manager.ListenerWD - Before find element By.id: dates
+15:51:23.621 INFO  manager.ListenerWD - Element found success By.id: dates
+15:51:23.621 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (f9db1673e9d62a6385796d1da4044cc9)] -> id: dates]
+15:51:23.705 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (f9db1673e9d62a6385796d1da4044cc9)] -> id: dates]
+15:51:23.705 INFO  manager.ListenerWD - Before find element By.xpath: //*[@type='submit']
+15:51:23.733 INFO  manager.ListenerWD - Element found success By.xpath: //*[@type='submit']
+15:51:23.734 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (f9db1673e9d62a6385796d1da4044cc9)] -> xpath: //*[@type='submit']]
+15:51:24.810 INFO  manager.ListenerWD - Houston we have a problem!
+15:51:24.811 INFO  manager.ListenerWD - element click intercepted: Element <button _ngcontent-xdk-c106="" type="submit" disabled="">...</button> is not clickable at point (220, 418). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=120.0.6099.225)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VITBER', ip: '192.168.68.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53447}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f9db1673e9d62a6385796d1da4044cc9
+15:51:24.811 INFO  manager.ListenerWD - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-xdk-c106="" type="submit" disabled="">...</button> is not clickable at point (220, 418). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=120.0.6099.225)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VITBER', ip: '192.168.68.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53447}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f9db1673e9d62a6385796d1da4044cc9
+15:51:25.172 INFO  manager.ListenerWD - This is a link to screenshot with error--->src/test/screenshots/screen3084.png
+15:51:25.175 INFO  tests.TestBase - ======================================

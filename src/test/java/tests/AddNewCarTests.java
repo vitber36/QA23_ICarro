@@ -1,6 +1,7 @@
 package tests;
 
 
+import manager.DataProviderCar;
 import models.*;
 import org.openqa.selenium.By;
 import org.testng.Assert;
@@ -18,27 +19,27 @@ public class AddNewCarTests extends TestBase{
         }
     }
 
-    @Test
-    public void addNewCarSuccessAll(){
+    @Test(dataProvider = "carSuccess",dataProviderClass = DataProviderCar.class)
+    public void addNewCarSuccessAll(Car car){
         logger.info("test add new car success all started");
-        logger.info("test data: location-'Tel Aviv, Israel', manufacture-'Mazda', model-'M3', year-'2012'," +
-                " fuel-'Gas',seats-'4', car class-'C', car number-'234-232 +i',price-'50',about-'very nice car'");
+        logger.info("test data: "+car.toString());
 
-        int i=new Random().nextInt(1000)+1000;
-        Car car=Car.builder()
-                .location("Tel Aviv, Israel")
-                .manufacture("Mazda")
-                .model("M3")
-                .year("2012")
-                .fuel("Gas")
-                .seats(4)
-                .carClass("C")
-                .carRegNumber("234-232"+i)
-                .price(50)
-                .about("Very nice car")
-                .build();
+          int i=new Random().nextInt(1000)+1000;
+//        Car car=Car.builder()
+//                .location("Tel Aviv, Israel")
+//                .manufacture("Mazda")
+//                .model("M3")
+//                .year("2012")
+//                .fuel("Gas")
+//                .seats(4)
+//                .carClass("C")
+//                .carRegNumber("234-232"+i)
+//                .price(50)
+//                .about("Very nice car")
+//                .build();
         app.getHelperCar().openCarForm();
         app.getHelperCar().fillCarForm(car);
+        app.getHelperCar().getScreen("src/test/screenshots/screen"+i+".png");
         app.getHelperCar().submit();
 
         Assert.assertTrue(app.getHelperCar().getMessage().contains("added successful"));
@@ -184,7 +185,6 @@ public class AddNewCarTests extends TestBase{
 
     @AfterMethod
     public void postCondition(){
-        if(app.getHelperCar().isYallaButtonNotActive())
-       app.getHelperCar().returnToHome();
+            app.getHelperCar().returnToHome();
     }
 }
