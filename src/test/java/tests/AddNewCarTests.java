@@ -158,17 +158,17 @@ public class AddNewCarTests extends TestBase{
         logger.info("assert check message 'Year is required'");
     }
     @Test(enabled = false)
-    public void addNewCarWrongFuel(){
-        logger.info("test add new car wrong fuel (empty) started");
-        logger.info("test data: location-'Tel Aviv, Israel', manufacture-'Kia', model-'Sportage', year-'2020'," +
-                " fuel-'',seats-'5', car class-'C', car number-'432-232 +i',price-'50'");
+    public void addNewCarWrongLocation(){
+        logger.info("test add new car wrong location (empty) started");
+        logger.info("test data: location-'', manufacture-'Kia', model-'Sportage', year-'2020'," +
+                " fuel-'Gas',seats-'5', car class-'C', car number-'432-232 +i',price-'50'");
 
         Car car=Car.builder()
-                .location("Tel Aviv, Israel")
+                .location("")
                 .manufacture("Kia")
                 .model("Sportage")
                 .year("2020")
-                .fuel("")
+                .fuel("Gas")
                 .seats(5)
                 .carClass("C")
                 .carRegNumber("432-232")
@@ -178,13 +178,18 @@ public class AddNewCarTests extends TestBase{
         app.getHelperCar().fillCarForm(car);
         app.getHelperCar().submit();
 
-        Assert.assertTrue(app.getHelperCar().isElementPresent(By.xpath("//*[contains(text(),'Fuel is required')]")));
+        Assert.assertTrue(app.getHelperCar().isElementPresent(By.xpath("//*[contains(text(),'Wrong address')]")));
 
-        logger.info("assert check message 'Fuel is required'");
+        logger.info("assert check message 'Wrong address'");
     }
 
     @AfterMethod
     public void postCondition(){
-            app.getHelperCar().returnToHome();
+            if(app.getHelperCar().isElementPresent(By.xpath("//button[text()='Search cars']"))){
+                app.getHelperCar().returnToHome();
+            }else{
+                app.getHelperCar().navigateByLogo();
+            }
+
     }
 }
