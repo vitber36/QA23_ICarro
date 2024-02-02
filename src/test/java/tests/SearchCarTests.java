@@ -44,6 +44,6 @@ public class SearchCarTests extends TestBase{
         app.getHelperCar().submit();
 
         Assert.assertTrue(app.getHelperCar().isYallaButtonNotActive());
-        Assert.assertEquals(app.getHelperCar().wrongDataMessage(),"You can't pick date before today");
+        Assert.assertEquals(app.getHelperCar().wrongDateMessage(),"You can't pick date before today");
     }
 }

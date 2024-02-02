@@ -152,14 +152,14 @@ public class HelperCar extends HelperBase {
     }
 
     public void wrongDate(String city, String dateFrom, String dateTo) {
+        clearTextBox(By.id("city"));
         typeCity(city);
-        click(By.id("dates"));
-        click(By.xpath("/html/body/div[2]/div[1]"));
+        clearTextBox(By.id("dates"));
         type(By.id("dates"),dateFrom+" - "+dateTo);
         click(By.xpath("/html/body/div[2]/div[1]"));
     }
 
-    public String wrongDataMessage() {
+    public String wrongDateMessage() {
         return wd.findElement(By.xpath("/html/body/app-root/app-navigator/app-search/div/div/form/div[2]/div/div[1]")).getText();
     }
 }

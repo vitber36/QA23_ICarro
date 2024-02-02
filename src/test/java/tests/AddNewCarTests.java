@@ -50,6 +50,25 @@ public class AddNewCarTests extends TestBase{
 
     }
 
+    @Test(dataProvider = "carSuccessFile",dataProviderClass = DataProviderCar.class)
+    public void addNewCarSuccessAllFile(Car car){
+        logger.info("test add new car success all started");
+        logger.info("test data: "+car.toString());
+
+        int i=new Random().nextInt(1000)+1000;
+        app.getHelperCar().openCarForm();
+        app.getHelperCar().fillCarForm(car);
+        app.getHelperCar().getScreen("src/test/screenshots/screen"+i+".png");
+        app.getHelperCar().submit();
+
+        Assert.assertTrue(app.getHelperCar().getMessage().contains("added successful"));
+        Assert.assertEquals(app.getHelperCar().getMessage(),
+                car.getManufacture()+" "+car.getModel()+" added successful");
+
+        logger.info("assert check message 'added successful'");
+
+    }
+
     @Test
     public void addNewCarSuccess(){
         logger.info("test add new car success started");

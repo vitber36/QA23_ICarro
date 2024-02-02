@@ -60,6 +60,21 @@ LoginTests extends TestBase{
         logger.info("Assert message 'Logged in success' is present");
     }
 
+    @Test(dataProvider="loginDateFile",dataProviderClass = DataProviderUser.class)
+    public void loginSuccessFile(User user) {
+        logger.info("Start test with name 'login success'");
+        logger.info("Test data--> "+user.toString());
+
+        //User user = new User().withEmail("vitber06@mail.ru").withPassword("1978Vit@lik");
+        app.getHelperUser().openLoginForm();
+        app.getHelperUser().fillLoginForm(user);
+        app.getHelperUser().submit();
+
+        Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
+
+        logger.info("Assert message 'Logged in success' is present");
+    }
+
 
 
     @Test(dataProvider = "loginModels",dataProviderClass = DataProviderUser.class)
