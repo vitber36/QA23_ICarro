@@ -176,11 +176,8 @@ public class AddNewCarTests extends TestBase{
 
         logger.info("assert check message 'Year is required'");
     }
-    @Test(enabled = false)
+    @Test
     public void addNewCarWrongLocation(){
-        logger.info("test add new car wrong location (empty) started");
-        logger.info("test data: location-'', manufacture-'Kia', model-'Sportage', year-'2020'," +
-                " fuel-'Gas',seats-'5', car class-'C', car number-'432-232 +i',price-'50'");
 
         Car car=Car.builder()
                 .location("")
@@ -193,22 +190,50 @@ public class AddNewCarTests extends TestBase{
                 .carRegNumber("432-232")
                 .price(50)
                 .build();
+        logger.info("test add new car wrong location (empty) started");
+        logger.info("test data:"+car.toString());
+
         app.getHelperCar().openCarForm();
-        app.getHelperCar().fillCarForm(car);
+        app.getHelperCar().fillCarEmptyLocations(car);
         app.getHelperCar().submit();
 
-        Assert.assertTrue(app.getHelperCar().isElementPresent(By.xpath("//*[contains(text(),'Wrong address')]")));
+        Assert.assertEquals(app.getHelperUser().getErrorText(), "Wrong address");
+        Assert.assertTrue(app.getHelperUser().isYallaButtonNotActive());
 
         logger.info("assert check message 'Wrong address'");
     }
 
-    @AfterMethod
-    public void postCondition(){
-            if(app.getHelperCar().isElementPresent(By.xpath("//button[text()='Search cars']"))){
-                app.getHelperCar().returnToHome();
-            }else{
-                app.getHelperCar().navigateByLogo();
-            }
+    @Test
+    public void addNewCarEmptyFuel() {
+
+        Car car = Car.builder()
+                .location("Tel Aviv, Israel")
+                .manufacture("KIA")
+                .model("Sportage")
+                .year("2020")
+                .fuel("")
+                .seats(4)
+                .carClass("C")
+                .carRegNumber("986-326-")
+                .price(50)
+                .build();
+        logger.info("Test start with test data --->" + car.toString());
+        app.getHelperCar().openCarForm();
+        app.getHelperCar().fillCarFormEmptyFuel(car);
+        //app.getHelperCar().attachPhoto("D:\\QA_23\\QA23_IlCarro\\02-bugatti-cd-nardo-testing.jpg");
+        app.getHelperCar().submit();
+        Assert.assertEquals(app.getHelperUser().getErrorText(), "Fuel is required");
+        Assert.assertTrue(app.getHelperUser().isYallaButtonNotActive());
+
 
     }
+
+    @AfterMethod
+    public void postCondition() {
+        if(app.getHelperCar().isButtonReturnToHomePresent()) {
+            app.getHelperCar().returnToHome();
+        }else
+            app.getHelperCar().navigateByLogo();
+    }
+
 }

@@ -162,4 +162,44 @@ public class HelperCar extends HelperBase {
     public String wrongDateMessage() {
         return wd.findElement(By.xpath("/html/body/app-root/app-navigator/app-search/div/div/form/div[2]/div/div[1]")).getText();
     }
+
+    public boolean isButtonReturnToHomePresent() {
+        return isElementPresent(By.xpath("//button[text()='Search cars']"));
+    }
+
+    public void fillCarEmptyLocations(Car car) {
+        typeEmptyLocation(car.getLocation());
+        type(By.id("make"), car.getManufacture());
+        type(By.id("model"), car.getModel());
+        type(By.id("year"), car.getYear());
+        select(By.id("fuel"), car.getFuel());
+        type(By.id("seats"), String.valueOf(car.getSeats()));
+        type(By.id("class"), car.getCarClass());
+        type(By.id("serialNumber"), car.getCarRegNumber());
+        //type(By.id("price"),String.valueOf(car.getPrice())) ;
+        type(By.id("price"), car.getPrice() + "");
+        type(By.id("about"), car.getAbout());
+    }
+
+    private void typeEmptyLocation(String location) {
+        type(By.id("pickUpPlace"), location);
+    }
+
+    public void fillCarFormEmptyFuel(Car car) {
+        typeLocation(car.getLocation());
+        type(By.id("make"), car.getManufacture());
+        type(By.id("model"), car.getModel());
+        type(By.id("year"), car.getYear());
+        selectEmptyFuel(By.id("fuel"), car.getFuel());
+        type(By.id("seats"), String.valueOf(car.getSeats()));
+        type(By.id("class"), car.getCarClass());
+        type(By.id("serialNumber"), car.getCarRegNumber());
+        //type(By.id("price"),String.valueOf(car.getPrice())) ;
+        type(By.id("price"), car.getPrice() + "");
+        type(By.id("about"), car.getAbout());
+    }
+
+    private void selectEmptyFuel(By fuel, String option) {
+        click(By.id("fuel"));
+    }
 }
