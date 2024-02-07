@@ -8,13 +8,13 @@ import org.testng.annotations.Test;
 import java.util.Random;
 
 public class RegistrationTests extends TestBase{
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition(){
         if(app.getHelperUser().isLogged()){
             app.getHelperUser().logout();
         }
     }
-    @Test
+    @Test(groups = {"smoke","regress","retest"})
     public void registrationSuccess(){
         logger.info("Start success registration test");
         logger.info("test data---> first name-'Vitaly', last name-'Dolgopiat', email-'vitaly+z+@gmail.com', password-'1978Vit@lik'");
@@ -111,7 +111,7 @@ public class RegistrationTests extends TestBase{
         logger.info("assert get message contains 'Password must contain minimum 8 symbols'");
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void postCondition(){
         app.getHelperUser().clickOkButton();
     }

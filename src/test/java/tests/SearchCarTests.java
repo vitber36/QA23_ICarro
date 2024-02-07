@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class SearchCarTests extends TestBase{
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition(){
         app.getHelperCar().navigateByLogo();
     }
@@ -28,7 +28,7 @@ public class SearchCarTests extends TestBase{
 
         Assert.assertTrue(app.getHelperCar().isListOfCarAppeared());
     }
-    @Test
+    @Test(groups = {"smoke","regress","retest"})
     public void searchAnyPeriodSuccess(){
         app.getHelperCar().searchAnyPeriod("Tel Aviv, Israel","6/11/2024","1/15/2025");
         app.getHelperCar().getScreen("src/test/screenshots/any.png");

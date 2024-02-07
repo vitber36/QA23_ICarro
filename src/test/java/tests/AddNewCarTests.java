@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 import java.util.Random;
 
 public class AddNewCarTests extends TestBase{
-    @BeforeClass
+    @BeforeClass(alwaysRun = true)
     public void precondition(){
         if(!app.getHelperUser().isLogged()){
             app.getHelperUser().login(new User().withEmail("vitber06@mail.ru").withPassword("1978Vit@lik"));
@@ -69,7 +69,7 @@ public class AddNewCarTests extends TestBase{
 
     }
 
-    @Test
+    @Test(groups = {"smoke","regress","retest"})
     public void addNewCarSuccess(){
         logger.info("test add new car success started");
         logger.info("test data: location-'Tel Aviv, Israel', manufacture-'Kia', model-'Sportage', year-'2020'," +
@@ -228,7 +228,7 @@ public class AddNewCarTests extends TestBase{
 
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void postCondition() {
         if(app.getHelperCar().isButtonReturnToHomePresent()) {
             app.getHelperCar().returnToHome();

@@ -1,0 +1,44 @@
+13:08:27.341 INFO  manager.ApplicationManager - All tests run in Chrome
+13:08:29.372 INFO  manager.ApplicationManager - The link--->https://ilcarro.web.app/search
+13:08:29.414 INFO  manager.ListenerWD - Before find element By.xpath: //*[text()=' Logout ']
+13:08:39.486 INFO  manager.ListenerWD - Element found success By.xpath: //*[text()=' Logout ']
+13:08:39.490 INFO  tests.TestBase - Start unsuccess registration test with empty first name
+13:08:39.491 INFO  tests.TestBase - test data---> first name-'', last name-'Dolgopiat', email-'vitaly+i+@gmail.com', password-'1978Vit@lik'
+13:08:39.492 INFO  manager.ListenerWD - Before find element By.xpath: //a[text()=' Sign up ']
+13:08:39.512 INFO  manager.ListenerWD - Element found success By.xpath: //a[text()=' Sign up ']
+13:08:39.523 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (8afaeb267bfd373d048c7abcd81cec18)] -> xpath: //a[text()=' Sign up ']]
+13:08:39.588 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (8afaeb267bfd373d048c7abcd81cec18)] -> xpath: //a[text()=' Sign up ']]
+13:08:39.589 INFO  manager.ListenerWD - Before find element By.id: name
+13:08:39.603 INFO  manager.ListenerWD - Element found success By.id: name
+13:08:39.603 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (8afaeb267bfd373d048c7abcd81cec18)] -> id: name]
+13:08:39.653 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (8afaeb267bfd373d048c7abcd81cec18)] -> id: name]
+13:08:39.796 INFO  manager.ListenerWD - Before find element By.id: lastName
+13:08:39.821 INFO  manager.ListenerWD - Element found success By.id: lastName
+13:08:39.821 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (8afaeb267bfd373d048c7abcd81cec18)] -> id: lastName]
+13:08:39.881 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (8afaeb267bfd373d048c7abcd81cec18)] -> id: lastName]
+13:08:40.056 INFO  manager.ListenerWD - Before find element By.id: email
+13:08:40.091 INFO  manager.ListenerWD - Element found success By.id: email
+13:08:40.091 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (8afaeb267bfd373d048c7abcd81cec18)] -> id: email]
+13:08:40.150 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (8afaeb267bfd373d048c7abcd81cec18)] -> id: email]
+13:08:40.324 INFO  manager.ListenerWD - Before find element By.id: password
+13:08:40.344 INFO  manager.ListenerWD - Element found success By.id: password
+13:08:40.344 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (8afaeb267bfd373d048c7abcd81cec18)] -> id: password]
+13:08:40.382 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (8afaeb267bfd373d048c7abcd81cec18)] -> id: password]
+13:08:40.525 INFO  manager.ListenerWD - Before find element By.id: terms-of-use
+13:08:40.547 INFO  manager.ListenerWD - Element found success By.id: terms-of-use
+13:08:40.575 INFO  manager.ListenerWD - Before find element By.xpath: //*[@type='submit']
+13:08:40.595 INFO  manager.ListenerWD - Element found success By.xpath: //*[@type='submit']
+13:08:40.595 INFO  manager.ListenerWD - start method click [[ChromeDriver: chrome on WINDOWS (8afaeb267bfd373d048c7abcd81cec18)] -> xpath: //*[@type='submit']]
+13:08:40.628 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (8afaeb267bfd373d048c7abcd81cec18)] -> xpath: //*[@type='submit']]
+13:08:40.629 INFO  manager.ListenerWD - Before find element By.cssSelector: div.error
+13:08:40.644 INFO  manager.ListenerWD - Element found success By.cssSelector: div.error
+13:08:40.659 INFO  manager.ListenerWD - get text from the element with text: Name is required
+13:08:40.683 INFO  manager.ListenerWD - got the text successful: Name is required
+13:08:40.687 INFO  manager.ListenerWD - Before find element By.cssSelector: button[disabled]
+13:08:40.710 INFO  manager.ListenerWD - Element found success By.cssSelector: button[disabled]
+13:08:40.711 INFO  manager.ListenerWD - Before find element By.cssSelector: button[type='submit']
+13:08:40.739 INFO  manager.ListenerWD - Element found success By.cssSelector: button[type='submit']
+13:08:40.746 INFO  tests.TestBase - assert get message 'Name is required'
+13:08:40.750 INFO  manager.ListenerWD - Before find element By.xpath: //button[text()='Ok']
+13:08:50.836 INFO  manager.ListenerWD - Element found success By.xpath: //button[text()='Ok']
+13:08:50.838 INFO  tests.TestBase - ======================================
