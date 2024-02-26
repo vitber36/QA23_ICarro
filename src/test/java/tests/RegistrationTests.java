@@ -23,8 +23,8 @@ public class RegistrationTests extends TestBase{
         int i=random.nextInt(1000);
         System.out.println(System.currentTimeMillis());
 
-        int z=(int)System.currentTimeMillis()/1000%3600;
-        User user=new User().withFirstName("Vitaly").withLastName("Dolgopiat").withEmail("vitaly"+z+"@gmail.com").withPassword("1978Vit@lik");
+        //int z=(int)System.currentTimeMillis()/1000%3600;
+        User user=new User().withFirstName("Vitaly").withLastName("Dolgopiat").withEmail("vitaly"+i+"@gmail.com").withPassword("1978Vit@lik");
         app.getHelperUser().openRegistrationForm();
         app.getHelperUser().fillRegistrationForm(user);
         //app.getHelperUser().checkPolicy();

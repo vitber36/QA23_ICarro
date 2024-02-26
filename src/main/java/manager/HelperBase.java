@@ -52,7 +52,7 @@ public class HelperBase {
     }
 
     public void clearNew(WebElement element) {
-        element.sendKeys("");
+        element.sendKeys(" ");
         element.sendKeys(Keys.BACK_SPACE);
     }
 
